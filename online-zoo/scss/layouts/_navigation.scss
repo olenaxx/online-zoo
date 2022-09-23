@@ -1,0 +1,23 @@
+.nav_link {
+  color: $gray_light;
+}
+
+.nav {
+  &_list {
+    display: flex;
+    padding: 0;
+    margin-left: 63px;
+  }
+  &_item {
+    margin-right: 58px;
+  }
+  &_link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

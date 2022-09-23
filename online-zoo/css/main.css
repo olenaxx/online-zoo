@@ -356,6 +356,8 @@ body {
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -373,6 +375,43 @@ body {
   position: absolute;
   top: 23px;
   left: 10px;
+}
+
+.designed {
+  margin-left: auto;
+  color: #f1f3f2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  color: #f1f3f2;
+}
+
+.nav_list {
+  display: flex;
+  padding: 0;
+  margin-left: 63px;
+}
+.nav_item {
+  margin-right: 58px;
+}
+.nav_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
