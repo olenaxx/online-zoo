@@ -2,12 +2,15 @@
 @import "./abstracts/mixins";
 @import "./abstracts/placeholders";
 @import "./abstracts/variables";
+@import "./abstracts/fonts";
 
 // base
 @import "./base/normalize";
+@import "./base/typography";
 
 // components
 @import "./components/buttons";
+@import "./components/logo";
 
 // layouts
 @import "./layouts/footer";
