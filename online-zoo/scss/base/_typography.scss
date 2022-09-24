@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: $background;
   font-family: "Roboto", sans-serif;
 }
 
@@ -16,5 +16,16 @@ body {
   outline: 2px solid red;
 }
 
-// h1 {
-// }
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}

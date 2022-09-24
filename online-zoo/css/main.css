@@ -345,7 +345,7 @@ template {
 }
 
 body {
-  background-color: black;
+  background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
 }
 
@@ -354,6 +354,20 @@ body {
   margin-right: auto;
   margin-left: auto;
   outline: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 .button {
@@ -395,6 +409,40 @@ body {
   position: absolute;
   top: 23px;
   left: 10px;
+}
+
+.backstage {
+  color: #333b41;
+}
+.backstage_container {
+  margin-top: 140px;
+  margin-bottom: 180px;
+  display: flex;
+  gap: 87px;
+}
+.backstage_title {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+.backstage_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.backstage_subtitle {
+  margin-top: 54px;
+  margin-bottom: 34px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
 }
 
 .hero {
@@ -483,7 +531,6 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
