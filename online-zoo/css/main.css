@@ -498,6 +498,10 @@ h3 {
   right: 100px;
 }
 
+.header {
+  background: #000000;
+}
+
 .designed {
   margin-left: auto;
   color: #f1f3f2;
