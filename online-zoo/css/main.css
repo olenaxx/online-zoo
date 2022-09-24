@@ -338,12 +338,15 @@ template {
   display: none;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -353,12 +356,29 @@ body {
   outline: 2px solid red;
 }
 
+.button {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
   margin-top: 14px;
   margin-bottom: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -377,10 +397,62 @@ body {
   left: 10px;
 }
 
+.hero {
+  background-image: url(../assets/images/g-panda.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero_container {
+  position: relative;
+}
+
+.ellipse {
+  position: absolute;
+  right: 108px;
+  top: 12px;
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+}
+
+.watch {
+  position: absolute;
+  right: 0;
+  top: 86px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.watch span {
+  color: #ffee2e;
+}
+
+.btn_hero {
+  position: absolute;
+  top: 546px;
+  right: 100px;
+}
+
 .designed {
   margin-left: auto;
   color: #f1f3f2;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -405,7 +477,7 @@ body {
   margin-right: 58px;
 }
 .nav_link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

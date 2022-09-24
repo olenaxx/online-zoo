@@ -1,8 +1,7 @@
 .designed {
   margin-left: auto;
   color: $gray_light;
-  font-family: "Roboto";
-  font-style: normal;
+  @include font-family();
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;

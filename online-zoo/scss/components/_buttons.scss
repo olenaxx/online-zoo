@@ -1,0 +1,16 @@
+.button {
+  width: 298px;
+  height: 54px;
+  background: $orange;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+
+  @include font-family();
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+}

@@ -8,12 +8,13 @@
     padding: 0;
     margin-left: 63px;
   }
+
   &_item {
     margin-right: 58px;
   }
+
   &_link {
-    font-family: "Roboto";
-    font-style: normal;
+    @include font-family();
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
