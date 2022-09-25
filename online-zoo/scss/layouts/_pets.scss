@@ -1,0 +1,52 @@
+.pets_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 30px;
+}
+
+.pets_img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card {
+  position: relative;
+  width: 366px;
+  height: 426px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  inset: 0;
+  padding: 1px;
+  background: linear-gradient(113.96deg, #fa6f32 1.49%, #fe9013 101.44%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.pets_title {
+  margin: 0;
+
+  @include font-family();
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.pets_text {
+  margin: 0;
+  @include font-family();
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.pets_text-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 14px 16px;
+}
