@@ -592,4 +592,34 @@ h3 {
   padding: 8px 8px 14px 16px;
 }
 
+.pets_container {
+  position: relative;
+}
+
+.btn {
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: -82px;
+  top: 400px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.btn-next {
+  left: auto;
+  right: -82px;
+}
+
+.pets_btn {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
