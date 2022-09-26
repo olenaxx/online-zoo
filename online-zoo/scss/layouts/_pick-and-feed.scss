@@ -1,0 +1,141 @@
+.pick-and-feed {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background: $orange_gradient;
+}
+
+.pick {
+  &_container {
+    padding-top: 41px;
+    padding-bottom: 50px;
+    background: $frosted_glass_white;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+  }
+  &_title {
+    margin-bottom: 30px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+
+  &_subtitle {
+    margin-bottom: 40px;
+    padding-left: 99px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: $black_blue;
+  }
+
+  &_text-weight {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 99px;
+    @include font-family();
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: $black_blue;
+  }
+
+  &_text {
+    margin-top: 0;
+    margin-bottom: 58px;
+    padding-left: 99px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: $black_blue;
+  }
+
+  &_link {
+    color: $black_blue;
+  }
+
+  &_link::after {
+    left: 185px;
+    top: 270px;
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 1px;
+    background: #fe9013;
+  }
+
+  &_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  @include font-family();
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: $black_blue;
+  text-align: center;
+}
+
+.pick_card {
+  height: 244px;
+  width: 168px;
+}
+
+.pick_card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pick_svg {
+  position: relative;
+  height: 168px;
+  width: 168px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.pick_svg::after {
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  inset: 0;
+  padding: 1px;
+  background: linear-gradient(113.96deg, #fa6f32 1.49%, #fe9013 101.44%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.pick_card-text {
+  margin: 0;
+  margin-top: 30px;
+  @include font-family();
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: $black_blue;
+}
+
+.pick_arrow {
+  transform: translateY(62px);
+  margin: 0 30px;
+}
+
+.pick_button {
+  margin-top: 70px;
+}

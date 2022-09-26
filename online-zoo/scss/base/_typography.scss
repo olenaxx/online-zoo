@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// html {
+//   scroll-behavior: smooth;
+// }
+
+body {
+  background-color: $background;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+.backstage {
+  color: $black_blue;
+
+  &_container {
+    margin-top: 140px;
+    margin-bottom: 180px;
+    display: flex;
+    gap: 87px;
+  }
+
+  &_title {
+    margin-bottom: 20px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  &_text {
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  &_subtitle {
+    margin-top: 54px;
+    margin-bottom: 34px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  background: #000000;
+}
+
+.designed {
+  margin-left: auto;
+  color: $gray_light;
+  @include font-family();
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
