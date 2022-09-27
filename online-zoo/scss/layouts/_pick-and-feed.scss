@@ -70,9 +70,9 @@
   }
 
   &_button {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
   }
 }
 
@@ -134,8 +134,4 @@
 .pick_arrow {
   transform: translateY(62px);
   margin: 0 30px;
-}
-
-.pick_button {
-  margin-top: 70px;
 }
