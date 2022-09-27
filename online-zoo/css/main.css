@@ -353,6 +353,7 @@ body {
   width: 1160px;
   margin-right: auto;
   margin-left: auto;
+  outline: 2px solid red;
 }
 
 a {
@@ -483,6 +484,7 @@ h3 {
   font-size: 16px;
   line-height: 140%;
   color: #4b9200;
+  cursor: pointer;
 }
 .footer_button-two {
   margin-top: 68px;
@@ -492,7 +494,7 @@ h3 {
   justify-content: space-between;
 }
 .footer_social-networks {
-  margin-top: 49px;
+  margin-top: 34px;
 }
 .footer_social-icon {
   width: 26px;
@@ -513,6 +515,9 @@ h3 {
   line-height: 20.8px;
   color: #ffffff;
 }
+.footer_design p {
+  margin: 0;
+}
 
 .footer-nav {
   margin-top: auto;
@@ -521,7 +526,7 @@ h3 {
 .social-icon-link {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-top: 10px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -532,6 +537,11 @@ h3 {
 
 .social-icon-list {
   padding-left: 0;
+  margin: 0;
+}
+
+.footer-nav-list {
+  margin: 0;
 }
 
 .backstage {
@@ -575,7 +585,6 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -659,6 +668,9 @@ h3 {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+.nav_link.active {
+  color: #f9804b;
 }
 
 .pets_cards {
