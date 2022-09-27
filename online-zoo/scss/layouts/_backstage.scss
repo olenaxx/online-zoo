@@ -2,8 +2,9 @@
   color: $black_blue;
 
   &_container {
-    margin-top: 140px;
-    margin-bottom: 180px;
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 180px;
     display: flex;
     gap: 87px;
   }
@@ -31,5 +32,11 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 120%;
+  }
+
+  &_flower {
+    position: absolute;
+    right: -220px;
+    top: 12px;
   }
 }

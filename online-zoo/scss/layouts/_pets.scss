@@ -8,6 +8,12 @@
   border-radius: 5px 5px 0 0;
 }
 
+.pets_img:hover {
+  // scale: 2;
+  background: #000;
+  // border-radius: 50%;
+}
+
 .card {
   position: relative;
   width: 366px;
@@ -54,6 +60,8 @@
 .pets_container {
   position: relative;
   // width: 1322px;
+  // outline: 2px solid red;
+  padding-bottom: 100px;
 }
 
 .btn {
@@ -68,7 +76,10 @@
   top: 400px;
   cursor: pointer;
   z-index: 20;
-  // transition: 0.3s;
+}
+
+.btn:hover {
+  background: #f9804b;
 }
 
 .btn:active {
@@ -83,7 +94,19 @@
 .pets_btn {
   display: block;
   margin-top: 80px;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cards_img-one {
+  position: absolute;
+  left: -220px;
+  bottom: 0;
+}
+
+.cards_img-two {
+  position: absolute;
+  right: -220px;
+  bottom: 0;
 }
