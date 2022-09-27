@@ -345,7 +345,7 @@ template {
 }
 
 body {
-  background-color: #e5e5e5;
+  width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -581,8 +581,9 @@ h3 {
   color: #333b41;
 }
 .backstage_container {
-  margin-top: 140px;
-  margin-bottom: 180px;
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 180px;
   display: flex;
   gap: 87px;
 }
@@ -609,6 +610,11 @@ h3 {
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
+}
+.backstage_flower {
+  position: absolute;
+  right: -220px;
+  top: 12px;
 }
 
 .hero {
@@ -731,6 +737,10 @@ h3 {
   border-radius: 5px 5px 0 0;
 }
 
+.pets_img:hover {
+  background: #000;
+}
+
 .card {
   position: relative;
   width: 366px;
@@ -777,6 +787,7 @@ h3 {
 
 .pets_container {
   position: relative;
+  padding-bottom: 100px;
 }
 
 .btn {
@@ -792,6 +803,10 @@ h3 {
   z-index: 20;
 }
 
+.btn:hover {
+  background: #f9804b;
+}
+
 .btn:active {
   background: #4b9200;
 }
@@ -804,9 +819,20 @@ h3 {
 .pets_btn {
   display: block;
   margin-top: 80px;
-  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cards_img-one {
+  position: absolute;
+  left: -220px;
+  bottom: 0;
+}
+
+.cards_img-two {
+  position: absolute;
+  right: -220px;
+  bottom: 0;
 }
 
 .pick-and-feed {
@@ -944,6 +970,9 @@ h3 {
   margin: 0 30px;
 }
 
+.testimonials_container {
+  position: relative;
+}
 .testimonials_title {
   margin-bottom: 30px;
   text-align: center;
@@ -1013,6 +1042,11 @@ h3 {
   color: #767474;
   overflow: hidden;
 }
+.testimonials_img-leaf {
+  position: absolute;
+  right: -220px;
+  bottom: -310px;
+}
 
 .user_icon {
   margin-right: 10px;
@@ -1029,7 +1063,7 @@ h3 {
 
 .testimonials {
   margin-top: 140px;
-  margin-bottom: 180px;
+  padding-bottom: 180px;
 }
 
 /*# sourceMappingURL=main.css.map */

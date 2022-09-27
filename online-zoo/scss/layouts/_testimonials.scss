@@ -1,4 +1,8 @@
 .testimonials {
+  &_container {
+    position: relative;
+  }
+
   &_title {
     // margin-top: 100px;
     margin-bottom: 30px;
@@ -76,6 +80,12 @@
     color: $gray;
     overflow: hidden;
   }
+
+  &_img-leaf {
+    position: absolute;
+    right: -220px;
+    bottom: -310px;
+  }
 }
 
 .user_icon {
@@ -93,5 +103,5 @@
 
 .testimonials {
   margin-top: 140px;
-  margin-bottom: 180px;
+  padding-bottom: 180px;
 }
