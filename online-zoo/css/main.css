@@ -370,6 +370,9 @@ h3 {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 298px;
   height: 54px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
@@ -388,6 +391,9 @@ h3 {
 }
 
 .button-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 298px;
   height: 54px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
@@ -509,7 +515,7 @@ h3 {
   margin-top: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: lighter;
   font-size: 16px;
   line-height: 20.8px;
   color: #ffffff;
@@ -828,9 +834,9 @@ h3 {
   background: #fe9013;
 }
 .pick_button {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 70px;
 }
 
 .text-title {
@@ -893,10 +899,6 @@ h3 {
 .pick_arrow {
   transform: translateY(62px);
   margin: 0 30px;
-}
-
-.pick_button {
-  margin-top: 70px;
 }
 
 .testimonials_title {
