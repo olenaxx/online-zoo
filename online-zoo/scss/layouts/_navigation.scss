@@ -19,6 +19,8 @@
     font-size: 16px;
     line-height: 140%;
     color: #ffffff;
-    // text-decoration: none;
+  }
+  &_link.active {
+    color: #f9804b;
   }
 }

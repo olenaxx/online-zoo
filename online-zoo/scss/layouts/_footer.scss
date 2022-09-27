@@ -54,6 +54,7 @@
     font-size: 16px;
     line-height: 140%;
     color: $green;
+    cursor: pointer;
   }
 
   &_button-two {
@@ -66,7 +67,7 @@
   }
 
   &_social-networks {
-    margin-top: 49px;
+    margin-top: 34px;
   }
 
   &_social-icon {
@@ -89,6 +90,10 @@
     line-height: 20.8px;
     color: #ffffff;
   }
+
+  &_design p {
+    margin: 0;
+  }
 }
 
 .footer-nav {
@@ -98,7 +103,8 @@
 .social-icon-link {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+  margin-top: 10px;
 
   @include font-family();
   font-weight: 400;
@@ -109,4 +115,9 @@
 
 .social-icon-list {
   padding-left: 0;
+  margin: 0;
+}
+
+.footer-nav-list {
+  margin: 0;
 }

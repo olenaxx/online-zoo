@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -335,6 +336,255 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.button {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-two {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.logo {
+  position: relative;
+  padding: 3.55px 4.75px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  width: 82px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+
+.icon_bamboo {
+  position: absolute;
+  top: 23px;
+  left: 10px;
+}
+
+.footer {
+  background: #111115;
+  padding-bottom: 50px;
+}
+.footer_container {
+  padding-top: 40px;
+}
+.footer_logo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer_logo {
+  margin: 0;
+}
+.footer_subscribe {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+.footer_input {
+  height: 42px;
+  padding: 10px;
+  margin-right: 10px;
+  background: transparent;
+  border: 0.7px solid #fa6f32;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.footer_input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #bdbdbd;
+}
+.footer_input-submit {
+  height: 42px;
+  padding: 10px 39px;
+  background: #f1f3f2;
+  border: 1px solid #4b9200;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
+  cursor: pointer;
+}
+.footer_button-two {
+  margin-top: 68px;
+}
+.footer_navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_social-networks {
+  margin-top: 34px;
+}
+.footer_social-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #767474;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.footer_design {
+  margin-top: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ffffff;
+}
+.footer_design p {
+  margin: 0;
+}
+
+.footer-nav {
+  margin-top: auto;
+}
+
+.social-icon-link {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.social-icon-list {
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-nav-list {
+  margin: 0;
+}
+
+.header {
+  background: #000000;
+}
+
+.designed {
+  margin-left: auto;
+  color: #f1f3f2;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  color: #f1f3f2;
+}
+
+.nav_list {
+  display: flex;
+  padding: 0;
+  margin-left: 63px;
+}
+.nav_item {
+  margin-right: 58px;
+}
+.nav_link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.nav_link.active {
+  color: #f9804b;
 }
 
 /*# sourceMappingURL=donate.css.map */
