@@ -353,7 +353,6 @@ body {
   width: 1160px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid red;
 }
 
 a {
@@ -546,6 +545,10 @@ h3 {
 
 .header {
   background: #000000;
+}
+
+.header_title {
+  display: none;
 }
 
 .designed {
