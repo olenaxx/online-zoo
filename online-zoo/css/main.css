@@ -669,6 +669,10 @@ h3 {
   right: 100px;
 }
 
+.hero_title {
+  display: none;
+}
+
 .header {
   background: #000000;
 }
