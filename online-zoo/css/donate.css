@@ -387,7 +387,6 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .button-two {
@@ -408,7 +407,24 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.button:hover {
   cursor: pointer;
+  background: #f9804b;
+}
+
+.button:active {
+  background: #4b9200;
+}
+
+.button-two:hover {
+  background: #f9804b;
+  cursor: pointer;
+}
+
+.button-two:active {
+  background: #4b9200;
 }
 
 .logo {
@@ -469,6 +485,10 @@ h3 {
   border-radius: 2px;
   color: #ffffff;
 }
+.footer_input:focus {
+  border: 0.7px solid #4b9200;
+  outline: #4b9200;
+}
 .footer_input::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -511,17 +531,21 @@ h3 {
   align-items: center;
   margin-right: 12px;
 }
+.footer_social-icon:active {
+  background: #4b9200;
+}
 .footer_design {
   margin-top: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 16px;
-  line-height: 20.8px;
+  line-height: 170%;
   color: #ffffff;
 }
-.footer_design p {
-  margin: 0;
+.footer_design:active {
+  color: #4b9200;
+  text-decoration: underline;
 }
 
 .footer-nav {
@@ -538,6 +562,10 @@ h3 {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+
+.social-icon-link:active {
+  color: #4b9200;
 }
 
 .social-icon-list {
@@ -567,6 +595,10 @@ h3 {
   line-height: 140%;
 }
 
+.designed:active {
+  color: #f9804b;
+}
+
 .header_container {
   display: flex;
   align-items: center;
@@ -591,6 +623,13 @@ h3 {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+  transition: 0.3s;
+}
+.nav_link:hover {
+  color: #f9804b;
+}
+.nav_link:active {
+  color: #4b9200;
 }
 .nav_link.active {
   color: #f9804b;

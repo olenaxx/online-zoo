@@ -16,8 +16,8 @@
   text-align: center;
   text-transform: uppercase;
   color: $white;
-  cursor: pointer;
 }
+
 .button-two {
   display: flex;
   justify-content: center;
@@ -36,23 +36,22 @@
   text-align: center;
   text-transform: uppercase;
   color: $white;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #f9804b;
+}
+
+.button:active {
+  background: $green;
+}
+
+.button-two:hover {
+  background: #f9804b;
   cursor: pointer;
 }
 
-// .button-two {
-//   width: 298px;
-//   height: 54px;
-//   background: $orange;
-//   border-radius: 5px;
-//   border: none;
-//   outline: none;
-
-//   @include font-family();
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 140%;
-//   text-align: center;
-//   text-transform: uppercase;
-//   color: $white;
-//   cursor: pointer;
-// }
+.button-two:active {
+  background: $green;
+}

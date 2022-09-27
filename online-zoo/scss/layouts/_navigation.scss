@@ -19,7 +19,17 @@
     font-size: 16px;
     line-height: 140%;
     color: #ffffff;
+    transition: 0.3s;
   }
+
+  &_link:hover {
+    color: #f9804b;
+  }
+
+  &_link:active {
+    color: $green;
+  }
+
   &_link.active {
     color: #f9804b;
   }

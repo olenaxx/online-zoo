@@ -36,6 +36,11 @@
     color: #ffffff;
   }
 
+  &_input:focus {
+    border: 0.7px solid $green;
+    outline: $green;
+  }
+
   &_input::placeholder {
     @include font-family();
     font-weight: 400;
@@ -81,18 +86,23 @@
     margin-right: 12px;
   }
 
+  &_social-icon:active {
+    background: $green;
+  }
+
   &_design {
     margin-top: auto;
 
     @include font-family();
     font-weight: lighter;
     font-size: 16px;
-    line-height: 20.8px;
+    line-height: 170%;
     color: #ffffff;
   }
 
-  &_design p {
-    margin: 0;
+  &_design:active {
+    color: $green;
+    text-decoration: underline;
   }
 }
 
@@ -110,6 +120,10 @@
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+
+.social-icon-link:active {
+  color: $green;
 }
 
 .social-icon-list {
