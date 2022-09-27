@@ -387,6 +387,24 @@ h3 {
   cursor: pointer;
 }
 
+.button-two {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
@@ -413,32 +431,69 @@ h3 {
 
 .footer {
   background: #111115;
-  color: #ffffff;
   padding-bottom: 50px;
 }
-
-.footer_navigation {
-  display: flex;
-  justify-content: space-between;
+.footer_container {
+  padding-top: 40px;
 }
-
 .footer_logo-form {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
-
-.social-icon-link {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-family: "Roboto";
+.footer_logo {
+  margin: 0;
+}
+.footer_subscribe {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+.footer_input {
+  height: 42px;
+  padding: 10px;
+  margin-right: 10px;
+  background: transparent;
+  border: 0.7px solid #fa6f32;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.footer_input::placeholder {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #ffffff;
+  color: #bdbdbd;
 }
-
+.footer_input-submit {
+  height: 42px;
+  padding: 10px 39px;
+  background: #f1f3f2;
+  border: 1px solid #4b9200;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
+}
+.footer_button-two {
+  margin-top: 68px;
+}
+.footer_navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_social-networks {
+  margin-top: 49px;
+}
 .footer_social-icon {
   width: 26px;
   height: 26px;
@@ -448,6 +503,35 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-right: 12px;
+}
+.footer_design {
+  margin-top: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: #ffffff;
+}
+
+.footer-nav {
+  margin-top: auto;
+}
+
+.social-icon-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.social-icon-list {
+  padding-left: 0;
 }
 
 .backstage {
