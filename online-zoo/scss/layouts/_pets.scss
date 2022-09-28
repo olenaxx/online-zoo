@@ -1,35 +1,43 @@
 .pets_cards {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px 30px;
 }
 
 .pets_img {
+  position: relative;
   border-radius: 5px 5px 0 0;
+  transition: 0.5s transform, 0.3s background-color;
+  z-index: 12;
 }
 
 .pets_img:hover {
-  // scale: 2;
-  background: #000;
-  // border-radius: 50%;
+  position: absolute;
+  transform: scale(1.1);
+  border-radius: 5px;
+  z-index: 30;
 }
 
 .card {
-  position: relative;
+  // position: relative;
   width: 366px;
   height: 426px;
+  border: 1px solid #fa6f32;
+  border-radius: 5px;
 }
 
-.card::before {
-  content: "";
+.card:hover .pets_title,
+.card:hover .pets_text {
+  transform: translateY(80px);
+  z-index: 30;
+  color: $white;
+  font-size: 20px;
   position: absolute;
-  border-radius: 5px;
-  inset: 0;
-  padding: 1px;
-  background: linear-gradient(113.96deg, #fa6f32 1.49%, #fe9013 101.44%);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+}
+
+.card:hover .pets_text {
+  margin-top: 23px;
 }
 
 .pets_title {
