@@ -345,6 +345,7 @@ template {
 }
 
 body {
+  margin: 0 auto;
   width: 1600px;
   font-family: "Roboto", sans-serif;
 }
@@ -512,7 +513,7 @@ h3 {
   cursor: pointer;
 }
 .footer_button-two {
-  margin-top: 68px;
+  margin-top: 36px;
 }
 .footer_navigation {
   display: flex;
@@ -520,6 +521,7 @@ h3 {
 }
 .footer_social-networks {
   margin-top: 34px;
+  margin-right: 115px;
 }
 .footer_social-icon {
   width: 26px;
@@ -574,7 +576,9 @@ h3 {
 }
 
 .footer-nav-list {
-  margin: 0;
+  margin-left: 178px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .donation {

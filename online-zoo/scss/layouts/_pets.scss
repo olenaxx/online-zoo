@@ -9,12 +9,14 @@
   position: relative;
   border-radius: 5px 5px 0 0;
   transition: 0.5s transform, 0.3s background-color;
+  // background-image: url("../assets/images/foto1.jpg");
   z-index: 12;
 }
 
 .pets_img:hover {
   position: absolute;
   transform: scale(1.1);
+  background-color: #000000;
   border-radius: 5px;
   z-index: 30;
 }

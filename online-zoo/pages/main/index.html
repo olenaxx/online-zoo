@@ -11,14 +11,14 @@
     <header class="header">
       <div class="container header_container">
         <h1 class="header_title">PetStory Online</h1>
-        <div class="logo">
+        <a class="logo" href="../main/index.html">
           <div class="title">PetStory online</div>
           <img
             class="icon_bamboo"
             src="../../assets/svg/bamboo.svg"
             alt="bamboo icon"
           />
-        </div>
+        </a>
         <nav class="nav">
           <ul class="nav_list">
             <li class="nav_item">
@@ -48,7 +48,7 @@
         <div class="container hero_container">
           <div class="ellipse"></div>
           <p class="watch">Watch your <span>favorite</span> animal online</p>
-          <button class="button btn_hero">wath online</button>
+          <button class="button btn_hero">watch online</button>
         </div>
       </section>
       <section class="backstage">
@@ -87,13 +87,11 @@
           <div class="wrapper">
             <div class="pets_cards">
               <div class="card">
-                <!-- <div class="img-wrapper"> -->
                 <img
                   class="pets_img"
                   src="../../assets/images/foto1.jpg"
                   alt="photo pet"
                 />
-                <!-- </div> -->
                 <div class="pets_text-card">
                   <div>
                     <h3 class="pets_title">giant Pandas</h3>
@@ -285,6 +283,7 @@
       <section class="testimonials">
         <div class="container testimonials_container">
           <h2 class="testimonials_title">Testimonials</h2>
+          <!-- <div class="testimonials_wrapper"> -->
           <div class="testimonials_flex">
             <div class="testimonials_card">
               <div class="testimonials_box">
@@ -404,7 +403,16 @@
               </p>
             </div>
           </div>
-          <input type="range" class="testimonials_progress" />
+          <!-- <div class="testimonials_slider">
+            <div class="progress"></div>
+          </div> -->
+          <div class="testimonials_range-input">
+            <input type="range" min="1" max="6" value="1" step="6" />
+          </div>
+          <!-- </div> -->
+          <!-- <div class="input-container">
+            <input type="text" class="testimonials_progress" />
+          </div> -->
           <button class="button-two">leave feedback</button>
           <img
             class="testimonials_img-leaf"
