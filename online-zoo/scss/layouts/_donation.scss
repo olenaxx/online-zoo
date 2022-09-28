@@ -1,0 +1,116 @@
+.donation {
+  background: $orange_gradient;
+
+  &_container {
+    padding-top: 40px;
+    padding-bottom: 180px;
+  }
+
+  &_title {
+    // padding-top: 40px;
+    margin-bottom: 10px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  &_text {
+    margin-bottom: 40px;
+
+    @include font-family();
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  &_information {
+    margin-bottom: 60px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #fe9013;
+  }
+
+  &_box {
+    padding: 40px 92px 62px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+  }
+
+  &_title-card {
+    margin-bottom: 20px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+  &_subtitle-card {
+    margin: 0;
+    @include font-family();
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: $black_blue;
+  }
+
+  &_box-widget {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_x-icon {
+    margin-left: 11px;
+    margin-right: 64px;
+  }
+
+  &_number-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  &_number {
+    margin: 0;
+    @include font-family();
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &_diet-text {
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: $black_blue;
+  }
+
+  &_amount {
+    margin-top: 48px;
+    margin-bottom: 10px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+}
+
+.panda_bg {
+  display: block;
+}
