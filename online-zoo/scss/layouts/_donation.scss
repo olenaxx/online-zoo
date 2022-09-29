@@ -79,7 +79,7 @@
     margin-top: 50px;
   }
 
-  &_number {
+  &_number-day {
     margin: 0;
     @include font-family();
     font-weight: 500;
@@ -91,6 +91,7 @@
   }
 
   &_diet-text {
+    padding: 0;
     @include font-family();
     font-weight: 400;
     font-size: 16px;
@@ -109,8 +110,129 @@
     line-height: 140%;
     color: #000000;
   }
+
+  &_diagram {
+    position: relative;
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+  }
+
+  &_diagram-line {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    width: 915px;
+    height: 2px;
+    background: #72828e;
+  }
+
+  &_number {
+    margin-left: 9px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: $black_blue;
+    cursor: pointer;
+  }
+
+  &_number::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: -26px;
+    margin-left: 14px;
+    background: #ffee2e;
+  }
+
+  &_number:hover::before {
+    cursor: pointer;
+  }
+
+  &_number::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 39px;
+    border-radius: 50%;
+    border: 10px double #fe9013;
+    opacity: 0;
+  }
+
+  &_number:hover::after {
+    opacity: 1;
+  }
+
+  &_number.active {
+    color: #fe9013;
+  }
+
+  &_number-link {
+    position: absolute;
+    top: 35px;
+    width: 970px;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .panda_bg {
   display: block;
+}
+// .active-svg {
+//   width: 10px;
+//   height: 20px;
+//   // fill: $black_blue;
+// }
+
+.another_amount {
+  margin-top: 98px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-number {
+  padding: 16px 9px;
+  margin-bottom: 25px;
+  border: 1px solid #929699;
+  border-radius: 2px;
+}
+
+.input-number::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+}
+
+.input-number:focus {
+  outline: 1px solid $green;
+}
+
+.radio-monthly {
+  margin-right: 50px;
+}
+
+.donation_button {
+  margin-top: 31px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.donation_share-text {
+  margin: 0;
+  text-align: center;
 }
