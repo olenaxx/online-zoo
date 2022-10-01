@@ -1,6 +1,6 @@
-// .pets_container {
-//   margin-top: 0;
-// }
+.pets {
+  position: relative;
+}
 
 .pets_cards {
   position: relative;
@@ -13,7 +13,6 @@
   position: relative;
   border-radius: 5px 5px 0 0;
   transition: 0.5s transform, 0.3s background-color;
-  // background-image: url("../assets/images/foto1.jpg");
   z-index: 12;
 }
 
@@ -112,12 +111,14 @@
 
 .cards_img-one {
   position: absolute;
-  left: -220px;
+  left: 0;
   bottom: 0;
+  font-size: 0;
 }
 
 .cards_img-two {
   position: absolute;
-  right: -220px;
+  right: 0;
   bottom: 0;
+  font-size: 0;
 }

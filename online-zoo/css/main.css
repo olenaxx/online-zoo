@@ -346,7 +346,7 @@ template {
 
 body {
   margin: 0 auto;
-  width: 1600px;
+  width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -583,6 +583,7 @@ h3 {
 
 .backstage {
   color: #333b41;
+  position: relative;
 }
 .backstage_container {
   position: relative;
@@ -617,7 +618,7 @@ h3 {
 }
 .backstage_flower {
   position: absolute;
-  right: -220px;
+  right: 0;
   top: 12px;
 }
 
@@ -631,7 +632,6 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 1600px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -738,6 +738,10 @@ h3 {
 }
 .nav_link.active {
   color: #f9804b;
+}
+
+.pets {
+  position: relative;
 }
 
 .pets_cards {
@@ -847,14 +851,16 @@ h3 {
 
 .cards_img-one {
   position: absolute;
-  left: -220px;
+  left: 0;
   bottom: 0;
+  font-size: 0;
 }
 
 .cards_img-two {
   position: absolute;
-  right: -220px;
+  right: 0;
   bottom: 0;
+  font-size: 0;
 }
 
 .pick-and-feed {
@@ -992,7 +998,7 @@ h3 {
   margin: 0 30px;
 }
 
-.testimonials_container {
+.testimonials {
   position: relative;
 }
 .testimonials_title {
@@ -1066,8 +1072,8 @@ h3 {
 }
 .testimonials_img-leaf {
   position: absolute;
-  right: -220px;
-  bottom: -310px;
+  right: 0;
+  bottom: -100px;
 }
 .testimonials_slider {
   height: 8px;

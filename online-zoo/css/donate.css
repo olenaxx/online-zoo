@@ -346,7 +346,7 @@ template {
 
 body {
   margin: 0 auto;
-  width: 1600px;
+  width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -753,7 +753,12 @@ h3 {
 }
 
 .panda_bg {
+  background: #283035;
+  height: 390px;
+  background-image: url("../assets/images/panda_bg.jpg");
+  background-size: cover;
   display: block;
+  margin: 0 auto;
 }
 
 .another_amount {

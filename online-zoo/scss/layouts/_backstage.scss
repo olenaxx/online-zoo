@@ -1,5 +1,6 @@
 .backstage {
   color: $black_blue;
+  position: relative;
 
   &_container {
     position: relative;
@@ -36,7 +37,7 @@
 
   &_flower {
     position: absolute;
-    right: -220px;
+    right: 0;
     top: 12px;
   }
 }

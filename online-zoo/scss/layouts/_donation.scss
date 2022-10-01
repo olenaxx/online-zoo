@@ -185,7 +185,12 @@
 }
 
 .panda_bg {
+  background: #283035;
+  height: 390px;
+  background-image: url("../assets/images/panda_bg.jpg");
+  background-size: cover;
   display: block;
+  margin: 0 auto;
 }
 
 .another_amount {
