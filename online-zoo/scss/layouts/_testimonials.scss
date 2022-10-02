@@ -1,7 +1,7 @@
 .testimonials {
-  &_container {
-    position: relative;
-  }
+  position: relative;
+  margin-top: 140px;
+  padding-bottom: 180px;
 
   &_title {
     margin-bottom: 48px;
@@ -16,7 +16,7 @@
 
   &_card {
     position: relative;
-    width: 293px;
+    width: 268px;
     height: 391px;
     border-radius: 20px;
     padding-top: 10px;
@@ -80,8 +80,8 @@
 
   &_img-leaf {
     position: absolute;
-    right: -220px;
-    bottom: -310px;
+    right: 0;
+    bottom: -100px;
   }
 
   &_slider {
@@ -106,10 +106,8 @@
 
   &_range-input {
     width: 600px;
-    // position: relative;
     margin-right: auto;
     margin-left: auto;
-    // text-align: center;
     left: 280px;
   }
 
@@ -133,11 +131,6 @@
   cursor: pointer;
 }
 
-.testimonials {
-  margin-top: 140px;
-  padding-bottom: 180px;
-}
-
 .button-two {
   margin-top: 31px;
 }
@@ -147,8 +140,27 @@
   border-radius: 5px;
   height: 8px;
   background: #f1f3f2;
-  // width: 400px;
   outline: none;
   transition: background 450ms ease-in;
   -webkit-appearance: none;
+}
+
+@media (max-width: 1599px) {
+  .testimonials {
+    margin-top: 100px;
+    padding-bottom: 140px;
+
+    &_range-input input {
+      width: 390px;
+      text-align: center;
+    }
+  }
+
+  .button-two {
+    margin-top: 23px;
+  }
+
+  .card-inactive {
+    display: none;
+  }
 }

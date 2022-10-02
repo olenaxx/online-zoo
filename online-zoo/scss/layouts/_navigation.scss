@@ -6,11 +6,11 @@
   &_list {
     display: flex;
     padding: 0;
-    margin-left: 63px;
+    margin-left: 35px;
   }
 
   &_item {
-    margin-right: 58px;
+    padding: 0 29px;
   }
 
   &_link {
@@ -33,4 +33,29 @@
   &_link.active {
     color: #f9804b;
   }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    &_list {
+      margin-left: 39px;
+    }
+    &_item {
+      padding: 0 24px;
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .nav {
+    &_list {
+      display: none;
+    }
+    // &_item {
+    // }
+    // &_link {
+    // }
+  }
+  // .active {
+  // }
 }

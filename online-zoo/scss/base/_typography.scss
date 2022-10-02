@@ -10,14 +10,13 @@
 
 body {
   margin: 0 auto;
-  width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  width: 1160px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 a {
@@ -32,4 +31,16 @@ h1,
 h2,
 h3 {
   margin: 0;
+}
+
+@media (max-width: 1599px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 999px) {
+  .container {
+    max-width: 600px;
+  }
 }

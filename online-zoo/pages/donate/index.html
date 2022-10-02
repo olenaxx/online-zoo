@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../assets/icons/panda.ico" />
     <link rel="stylesheet" href="../../css/donate.css" />
     <title>donate</title>
   </head>
@@ -43,13 +44,7 @@
       </div>
     </header>
     <main class="main">
-      <div>
-        <img
-          class="panda_bg"
-          src="../../assets/images/panda_bg.jpg"
-          alt="panda image"
-        />
-      </div>
+      <div class="panda_bg"></div>
       <section class="donation donation_container">
         <div class="container">
           <h2 class="donation_title">
@@ -111,9 +106,6 @@
                 </li>
                 <li class="donation_number active">
                   <div>
-                    <!-- <svg class="active-svg">
-                      <use xlink:href="../../assets/sprite.svg#dollar"></use>
-                    </svg> -->
                     <img
                       class="active-svg"
                       src="../../assets/svg/dollar.svg"
@@ -180,7 +172,7 @@
                 />
               </div>
               <div>
-                <label class="radio-monthly" for="btn">
+                <label class="custom-radio radio-monthly" for="btn">
                   <input type="radio" name="donat" id="btn" value="monthly" />
                   Monthly
                 </label>

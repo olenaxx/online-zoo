@@ -346,14 +346,13 @@ template {
 
 body {
   margin: 0 auto;
-  width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  width: 1160px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 a {
@@ -370,6 +369,16 @@ h3 {
   margin: 0;
 }
 
+@media (max-width: 1599px) {
+  .container {
+    max-width: 980px;
+  }
+}
+@media (max-width: 999px) {
+  .container {
+    max-width: 600px;
+  }
+}
 .button {
   display: flex;
   justify-content: center;
@@ -452,6 +461,23 @@ h3 {
   left: 10px;
 }
 
+@media (max-width: 999px) {
+  .logo {
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 12px;
+    border: none;
+    width: 47px;
+    height: 29px;
+  }
+
+  .icon_bamboo {
+    width: 6px;
+    height: 15px;
+    top: 16px;
+    left: 5px;
+  }
+}
 .footer {
   background: #111115;
   padding-bottom: 50px;
@@ -581,6 +607,11 @@ h3 {
   margin-bottom: 0;
 }
 
+@media (max-width: 1599px) {
+  .footer_container {
+    padding: 40px 30px 0 30px;
+  }
+}
 .donation {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #febdab 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%);
 }
@@ -753,7 +784,12 @@ h3 {
 }
 
 .panda_bg {
+  background: #283035;
+  height: 390px;
+  background-image: url("../assets/images/panda_bg.jpg");
+  background-size: cover;
   display: block;
+  margin: 0 auto;
 }
 
 .another_amount {
@@ -826,6 +862,17 @@ h3 {
   align-items: center;
 }
 
+@media (max-width: 999px) {
+  .header_container {
+    position: relative;
+    height: 34px;
+    padding: 2px 0;
+  }
+
+  .designed {
+    display: none;
+  }
+}
 .nav_link {
   color: #f1f3f2;
 }
@@ -833,10 +880,10 @@ h3 {
 .nav_list {
   display: flex;
   padding: 0;
-  margin-left: 63px;
+  margin-left: 35px;
 }
 .nav_item {
-  margin-right: 58px;
+  padding: 0 29px;
 }
 .nav_link {
   font-family: "Roboto", sans-serif;
@@ -855,6 +902,20 @@ h3 {
 }
 .nav_link.active {
   color: #f9804b;
+}
+
+@media (max-width: 1000px) {
+  .nav_list {
+    margin-left: 39px;
+  }
+  .nav_item {
+    padding: 0 24px;
+  }
+}
+@media (max-width: 999px) {
+  .nav_list {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=donate.css.map */

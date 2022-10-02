@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../assets/icons/panda.ico" />
+
     <link rel="stylesheet" href="../../css/main.css" />
     <title>online-zoo</title>
   </head>
@@ -40,6 +42,9 @@
           target="_blank"
           >Designed by &copy;</a
         >
+        <div class="burger-menu">
+          <div class="line"></div>
+        </div>
       </div>
     </header>
     <main>
@@ -53,11 +58,11 @@
       </section>
       <section class="backstage">
         <div class="container backstage_container">
-          <img
-            class="bamboo_cap"
-            src="../../assets/images/bamboo-cap.jpg"
-            alt="bamboo cap"
-          />
+          <!-- <div class="backstage_flex"> -->
+          <div class="bamboo_cup">
+            <!-- <img src="../../assets/images/bamboo-cap.jpg" alt="bamboo cap" /> -->
+          </div>
+
           <div>
             <h2 class="backstage_title">
               The Backstage of the Wilderness World.
@@ -75,11 +80,10 @@
               These have a total of more than 1,500 mammals and reptiles.
             </p>
           </div>
-          <img
-            class="backstage_flower"
-            src="../../assets/images/flower_foto.png"
-            alt="flower"
-          />
+          <!-- </div> -->
+        </div>
+        <div class="backstage_flower">
+          <img src="../../assets/images/flower_foto.png" alt="flower" />
         </div>
       </section>
       <section class="pets">
@@ -189,16 +193,6 @@
                 </div>
               </div>
             </div>
-            <img
-              class="cards_img-one"
-              src="../../assets/images/palm_foto.png"
-              alt="palma"
-            />
-            <img
-              class="cards_img-two"
-              src="../../assets/images/strelitzia.png"
-              alt="strelitzia"
-            />
           </div>
           <button class="btn btn-prev">
             <img src="../../assets/svg/btn-prev.svg" alt="arrov prev" />
@@ -207,6 +201,23 @@
             <img src="../../assets/svg/btn-next.svg" alt="arrov next" />
           </button>
           <button class="button pets_btn">choose your favorite</button>
+        </div>
+        <div>
+          <img
+            class="cards_img-one"
+            src="../../assets/images/palm_foto.png"
+            alt="palma"
+          />
+        </div>
+        <div class="cards_img-three">
+          <img src="../../assets/images/palm_foto1.png" alt="palma" />
+        </div>
+        <div>
+          <img
+            class="cards_img-two"
+            src="../../assets/images/strelitzia.png"
+            alt="strelitzia"
+          />
         </div>
       </section>
       <section class="pick-and-feed">
@@ -223,8 +234,7 @@
           </p>
           <p class="pick_text">
             Even though the zoo has reopened, we need you now more than ever to
-            help us deal with these problems. Please consider <br />
-            a gift to our
+            help us deal with these problems. Please consider a gift to our
             <a class="pick_link" href="../donate/index.html"
               >Emergency Support Fund</a
             >
@@ -283,7 +293,6 @@
       <section class="testimonials">
         <div class="container testimonials_container">
           <h2 class="testimonials_title">Testimonials</h2>
-          <!-- <div class="testimonials_wrapper"> -->
           <div class="testimonials_flex">
             <div class="testimonials_card">
               <div class="testimonials_box">
@@ -372,7 +381,7 @@
                 one jf the ways to instill a love for animals.
               </p>
             </div>
-            <div class="testimonials_card">
+            <div class="testimonials_card card-inactive">
               <div class="testimonials_box">
                 <img
                   class="user_icon"
@@ -414,11 +423,9 @@
             />
           </div>
           <button class="button-two">leave feedback</button>
-          <img
-            class="testimonials_img-leaf"
-            src="../../assets/images/leav_foto.png"
-            alt="leaf"
-          />
+        </div>
+        <div class="testimonials_img-leaf">
+          <img src="../../assets/images/leav_foto.png" alt="leaf" />
         </div>
       </section>
     </main>
