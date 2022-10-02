@@ -3,16 +3,15 @@
   position: relative;
 
   &_container {
-    position: relative;
     padding-top: 140px;
     margin-bottom: 180px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 87px;
   }
 
   &_title {
     margin-bottom: 20px;
-
     @include font-family();
     font-weight: 400;
     font-size: 48px;
@@ -20,15 +19,16 @@
   }
 
   &_text {
+    margin: 0;
     @include font-family();
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
   }
+
   &_subtitle {
     margin-top: 54px;
     margin-bottom: 34px;
-
     @include font-family();
     font-weight: 400;
     font-size: 24px;
@@ -42,6 +42,36 @@
   }
 }
 
-.bamboo_cap {
-  height: 400px;
+.bamboo_cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../assets/images/bamboo-cap.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .bamboo_cup {
+    background-image: url("../assets/images/bamboo-cap1.jpg");
+    max-width: 455px;
+    width: 100%;
+  }
+
+  .backstage {
+    &_container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 31px;
+    }
+
+    &_text {
+      line-height: 130%;
+    }
+
+    &_flower {
+      display: none;
+    }
+  }
 }

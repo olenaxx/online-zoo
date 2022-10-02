@@ -371,7 +371,7 @@ h3 {
 
 @media (max-width: 1000px) {
   .container {
-    max-width: 940px;
+    max-width: 980px;
   }
 }
 .button {

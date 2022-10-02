@@ -371,7 +371,7 @@ h3 {
 
 @media (max-width: 1000px) {
   .container {
-    max-width: 940px;
+    max-width: 980px;
   }
 }
 .button {
@@ -590,10 +590,10 @@ h3 {
   position: relative;
 }
 .backstage_container {
-  position: relative;
   padding-top: 140px;
   margin-bottom: 180px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 87px;
 }
 .backstage_title {
@@ -605,6 +605,7 @@ h3 {
   line-height: 120%;
 }
 .backstage_text {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -626,10 +627,34 @@ h3 {
   top: 12px;
 }
 
-.bamboo_cap {
-  height: 400px;
+.bamboo_cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/images/bamboo-cap.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
+@media (max-width: 1000px) {
+  .bamboo_cup {
+    background-image: url("../assets/images/bamboo-cap1.jpg");
+    max-width: 455px;
+    width: 100%;
+  }
+
+  .backstage_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 31px;
+  }
+  .backstage_text {
+    line-height: 130%;
+  }
+  .backstage_flower {
+    display: none;
+  }
+}
 .hero {
   background: #283035;
   background-image: url("../assets/images/g-panda.jpg");
