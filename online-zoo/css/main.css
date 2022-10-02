@@ -369,7 +369,7 @@ h3 {
   margin: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1599px) {
   .container {
     max-width: 980px;
   }
@@ -637,7 +637,7 @@ h3 {
   height: auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1599px) {
   .bamboo_cup {
     background-image: url("../assets/images/bamboo-cap1.jpg");
     max-width: 455px;
@@ -711,7 +711,7 @@ h3 {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1599px) {
   .hero {
     height: 504px;
   }
@@ -825,8 +825,9 @@ h3 {
 }
 
 .card {
+  max-height: 100%;
   height: 426px;
-  border: 1px solid #fa6f32;
+  border: 1px solid #fe9013;
   border-radius: 5px;
 }
 
@@ -921,6 +922,45 @@ h3 {
   font-size: 0;
 }
 
+.cards_img-three {
+  display: none;
+}
+
+@media (max-width: 1599px) {
+  .pets_cards {
+    gap: 92px 29px;
+  }
+  .pets_img {
+    width: 295px;
+    height: 295px;
+  }
+
+  .card {
+    height: 354px;
+  }
+
+  .btn {
+    top: 368px;
+  }
+
+  .btn-prev {
+    left: 348px;
+  }
+
+  .btn-next {
+    right: 345px;
+  }
+
+  .cards_img-one {
+    display: none;
+  }
+  .cards_img-three {
+    position: absolute;
+    display: block;
+    font-size: 0;
+    bottom: 0;
+  }
+}
 .pick-and-feed {
   padding-top: 69px;
   padding-bottom: 100px;

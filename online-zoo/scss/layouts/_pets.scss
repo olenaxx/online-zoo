@@ -25,10 +25,9 @@
 }
 
 .card {
-  // position: relative;
-  // width: 366px;
+  max-height: 100%;
   height: 426px;
-  border: 1px solid #fa6f32;
+  border: 1px solid #fe9013;
   border-radius: 5px;
 }
 
@@ -121,4 +120,50 @@
   right: 0;
   bottom: 0;
   font-size: 0;
+}
+
+.cards_img-three {
+  display: none;
+}
+
+@media (max-width: 1599px) {
+  .pets {
+    &_cards {
+      gap: 92px 29px;
+    }
+
+    &_img {
+      width: 295px;
+      height: 295px;
+    }
+  }
+
+  .card {
+    height: 354px;
+  }
+
+  .btn {
+    top: 368px;
+  }
+
+  .btn-prev {
+    left: 348px;
+  }
+
+  .btn-next {
+    right: 345px;
+  }
+
+  .cards {
+    &_img-one {
+      display: none;
+    }
+
+    &_img-three {
+      position: absolute;
+      display: block;
+      font-size: 0;
+      bottom: 0;
+    }
+  }
 }
