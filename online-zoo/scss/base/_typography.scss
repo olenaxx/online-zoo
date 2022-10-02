@@ -38,3 +38,9 @@ h3 {
     max-width: 980px;
   }
 }
+
+@media (max-width: 999px) {
+  .container {
+    max-width: 600px;
+  }
+}

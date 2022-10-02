@@ -1,0 +1,48 @@
+@media (max-width: 999px) {
+  .burger-menu {
+    cursor: pointer;
+  }
+
+  .line {
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+
+  .line::before {
+    content: "";
+    top: 4px;
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+  .line::after {
+    content: "";
+    bottom: 4px;
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+
+  .line.active {
+    width: 0;
+  }
+
+  .line.active::before {
+    rotate: 45deg;
+    top: -2px;
+  }
+  .line.active::after {
+    rotate: -45deg;
+    bottom: 2px;
+  }
+}

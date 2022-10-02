@@ -1,5 +1,6 @@
 .header {
   background: #000000;
+  // position: relative;
 }
 
 .header_title {
@@ -24,5 +25,14 @@
   align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
+  .header_container {
+    position: relative;
+    height: 34px;
+    padding: 2px 0;
+  }
+
+  .designed {
+    display: none;
+  }
 }

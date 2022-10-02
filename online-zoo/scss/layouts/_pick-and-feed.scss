@@ -140,15 +140,22 @@
 
     &_subtitle {
       margin-bottom: 20px;
+      padding-left: 49px;
     }
 
     &_text-weight {
-      margin-right: 28px;
+      margin-right: 90px;
+      padding-left: 49px;
     }
 
     &_text {
       margin-bottom: 40px;
       margin-right: 38px;
+      padding-left: 49px;
     }
+  }
+
+  .pick-and-feed {
+    padding-bottom: 50px;
   }
 }

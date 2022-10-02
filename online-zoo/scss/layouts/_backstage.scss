@@ -62,6 +62,7 @@
 
   .backstage {
     &_container {
+      padding-top: 100px;
       grid-template-columns: repeat(2, 1fr);
       gap: 31px;
     }
