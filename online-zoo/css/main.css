@@ -1009,6 +1009,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 58px;
   padding-left: 99px;
+  margin-right: 188px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1018,15 +1019,7 @@ h3 {
 }
 .pick_link {
   color: #333b41;
-}
-.pick_link::after {
-  left: 185px;
-  top: 270px;
-  content: "";
-  position: absolute;
-  width: 178px;
-  height: 1px;
-  background: #fe9013;
+  border-bottom: 1px solid #fe9013;
 }
 .pick_button {
   margin-left: auto;
@@ -1073,7 +1066,7 @@ h3 {
   position: absolute;
   border-radius: 5px;
   inset: 0;
-  padding: 1px;
+  padding: 2px;
   background: linear-gradient(113.96deg, #fa6f32 1.49%, #fe9013 101.44%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -1096,6 +1089,24 @@ h3 {
   margin: 0 30px;
 }
 
+@media (max-width: 1599px) {
+  .pick_container {
+    padding-top: 30px;
+  }
+  .pick_title {
+    margin-bottom: 20px;
+  }
+  .pick_subtitle {
+    margin-bottom: 20px;
+  }
+  .pick_text-weight {
+    margin-right: 28px;
+  }
+  .pick_text {
+    margin-bottom: 40px;
+    margin-right: 38px;
+  }
+}
 .testimonials {
   position: relative;
 }
