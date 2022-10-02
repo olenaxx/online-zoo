@@ -54,3 +54,25 @@
 .hero_title {
   display: none;
 }
+
+@media (max-width: 1000px) {
+  .hero {
+    height: 504px;
+  }
+
+  .btn_hero {
+    top: 403px;
+  }
+
+  .ellipse {
+    width: 367px;
+    height: 367px;
+    top: -14px;
+    right: 147px;
+  }
+
+  .watch {
+    top: 42px;
+    font-size: 85px;
+  }
+}

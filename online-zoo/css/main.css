@@ -346,14 +346,13 @@ template {
 
 body {
   margin: 0 auto;
-  width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  width: 1160px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 a {
@@ -370,6 +369,11 @@ h3 {
   margin: 0;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    max-width: 940px;
+  }
+}
 .button {
   display: flex;
   justify-content: center;
@@ -682,6 +686,27 @@ h3 {
   display: none;
 }
 
+@media (max-width: 1000px) {
+  .hero {
+    height: 504px;
+  }
+
+  .btn_hero {
+    top: 403px;
+  }
+
+  .ellipse {
+    width: 367px;
+    height: 367px;
+    top: -14px;
+    right: 147px;
+  }
+
+  .watch {
+    top: 42px;
+    font-size: 85px;
+  }
+}
 .header {
   background: #000000;
 }
@@ -716,10 +741,10 @@ h3 {
 .nav_list {
   display: flex;
   padding: 0;
-  margin-left: 63px;
+  margin-left: 35px;
 }
 .nav_item {
-  margin-right: 58px;
+  padding: 0 29px;
 }
 .nav_link {
   font-family: "Roboto", sans-serif;
@@ -740,6 +765,14 @@ h3 {
   color: #f9804b;
 }
 
+@media (max-width: 1000px) {
+  .nav_list {
+    margin-left: 39px;
+  }
+  .nav_item {
+    padding: 0 24px;
+  }
+}
 .pets {
   position: relative;
 }
