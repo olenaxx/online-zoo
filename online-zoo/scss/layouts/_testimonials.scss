@@ -84,6 +84,10 @@
     bottom: -100px;
   }
 
+  &_img-leaf-one {
+    display: none;
+  }
+
   &_slider {
     height: 8px;
     border-radius: 5px;
@@ -162,5 +166,55 @@
 
   .card-inactive {
     display: none;
+  }
+}
+
+@media (max-width: 999px) {
+  .testimonials {
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 80px;
+
+    &_title {
+      margin-bottom: 30px;
+      font-size: 36px;
+    }
+
+    &_flex {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    &_card {
+      width: 600px;
+      height: 109px;
+      margin-bottom: 0;
+    }
+
+    &_text {
+      padding: 10px 29px 8px 18px;
+      height: 48px;
+    }
+
+    &_range-input {
+      display: none;
+    }
+
+    &_img-leaf {
+      display: none;
+    }
+
+    &_img-leaf-one {
+      display: block;
+      position: absolute;
+      bottom: -74px;
+      right: 0;
+    }
+  }
+
+  .button-two {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

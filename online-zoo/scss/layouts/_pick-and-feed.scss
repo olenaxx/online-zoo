@@ -176,7 +176,7 @@
   .pick {
     &_container {
       max-width: 640px;
-      margin: 0;
+      margin: 0 auto;
       padding: 10px 12px 60px 12px;
     }
 
@@ -199,8 +199,7 @@
       margin-right: 0;
       margin-bottom: 30px;
     }
-    &_link {
-    }
+
     &_card-container {
       position: relative;
       gap: 16px;
