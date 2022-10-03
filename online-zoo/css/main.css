@@ -703,6 +703,9 @@ h3 {
   right: 0;
   top: 12px;
 }
+.backstage_flower-one {
+  display: none;
+}
 
 .bamboo_cup {
   display: flex;
@@ -730,6 +733,35 @@ h3 {
     line-height: 130%;
   }
   .backstage_flower {
+    display: none;
+  }
+}
+@media (max-width: 999px) {
+  .backstage {
+    position: relative;
+  }
+  .backstage_container {
+    display: block;
+    padding-top: 60px;
+    margin-bottom: 80px;
+  }
+  .backstage_title {
+    width: 495px;
+  }
+  .backstage_text {
+    width: 495px;
+  }
+  .backstage_subtitle {
+    width: 495px;
+  }
+  .backstage_flower-one {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .bamboo_cup {
     display: none;
   }
 }
