@@ -377,6 +377,7 @@ h3 {
 @media (max-width: 999px) {
   .container {
     max-width: 600px;
+    padding: 0;
   }
 }
 .button {

@@ -377,6 +377,7 @@ h3 {
 @media (max-width: 999px) {
   .container {
     max-width: 600px;
+    padding: 0;
   }
 }
 .button {
@@ -987,6 +988,7 @@ h3 {
   transform: translateY(80px);
   z-index: 30;
   color: #ffffff;
+  background: rgba(95, 81, 81, 0.5);
   font-size: 20px;
   position: absolute;
 }
@@ -1110,6 +1112,56 @@ h3 {
     display: block;
     font-size: 0;
     bottom: 0;
+  }
+}
+@media (max-width: 999px) {
+  .pets_img {
+    width: 284px;
+    height: 284px;
+  }
+
+  .card {
+    width: 285px;
+    height: 332px;
+  }
+
+  .pets_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-none {
+    display: none;
+  }
+
+  .pets_text-card {
+    padding: 0 8px 14px 16px;
+  }
+
+  .btn {
+    top: 346px;
+  }
+
+  .cards_img-two {
+    width: 175px;
+    height: 131px;
+  }
+
+  .cards_img-three {
+    height: 202px;
+    width: 190px;
+    left: -55px;
+  }
+
+  .pets_btn {
+    margin-top: 60px;
+  }
+
+  .btn-prev {
+    left: 220px;
+  }
+
+  .btn-next {
+    right: 220px;
   }
 }
 .pick-and-feed {
@@ -1240,6 +1292,10 @@ h3 {
   margin: 0 30px;
 }
 
+.pick_arrow-green {
+  display: none;
+}
+
 @media (max-width: 1599px) {
   .pick_container {
     padding-top: 30px;
@@ -1263,6 +1319,59 @@ h3 {
 
   .pick-and-feed {
     padding-bottom: 50px;
+  }
+}
+@media (max-width: 999px) {
+  .pick-and-feed {
+    padding: 20px 0;
+  }
+
+  .pick_arrow {
+    display: none;
+  }
+
+  .pick_container {
+    max-width: 640px;
+    margin: 0;
+    padding: 10px 12px 60px 12px;
+  }
+  .pick_title {
+    font-size: 42px;
+  }
+  .pick_subtitle {
+    font-size: 21px;
+    padding: 0;
+    margin-right: 0;
+  }
+  .pick_text-weight {
+    padding: 0;
+    margin-right: 0;
+  }
+  .pick_text {
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .pick_card-container {
+    position: relative;
+    gap: 16px;
+  }
+  .pick_arrow-green {
+    display: block;
+    position: absolute;
+    top: -14px;
+    left: 140px;
+    z-index: 10;
+  }
+  .pick_arrow-green-two {
+    left: 355px;
+  }
+  .pick_button {
+    margin-top: 40px;
+  }
+
+  .text-title {
+    margin-bottom: 20px;
   }
 }
 .testimonials {
