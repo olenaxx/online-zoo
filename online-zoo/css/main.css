@@ -819,6 +819,7 @@ h3 {
 @media (max-width: 639px) {
   .backstage_container {
     padding-top: 104px;
+    margin-bottom: 40px;
   }
   .backstage_title {
     margin-bottom: 10px;
@@ -1264,6 +1265,32 @@ h3 {
     right: 220px;
   }
 }
+@media (max-width: 639px) {
+  .pets_container {
+    padding-bottom: 60px;
+  }
+  .pets_cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .pets_btn {
+    margin-top: 20px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .cards_img-three {
+    height: 80px;
+    width: 74px;
+    left: -20px;
+  }
+  .cards_img-two {
+    width: 72px;
+    height: 74px;
+  }
+}
 .pick-and-feed {
   padding-top: 69px;
   padding-bottom: 100px;
@@ -1472,6 +1499,53 @@ h3 {
 
   .text-title {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 639px) {
+  .pick_container {
+    width: 300px;
+    padding: 20px 0 40px 0;
+  }
+  .pick_title {
+    font-size: 24px;
+    margin-bottom: 13px;
+  }
+  .pick_subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  .pick_text-weight {
+    display: none;
+  }
+  .pick_text {
+    display: none;
+  }
+  .pick_card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .pick_card-text {
+    margin-top: 10px;
+    line-height: 140%;
+  }
+  .pick_arrow-green {
+    transform: rotate(90deg);
+    left: 205px;
+    top: 190px;
+  }
+  .pick_arrow-green-two {
+    left: 205px;
+    top: 435px;
+  }
+  .pick_button {
+    margin-top: 15px;
+  }
+
+  .text-title {
+    font-size: 24px;
+    line-height: 120%;
   }
 }
 .testimonials {

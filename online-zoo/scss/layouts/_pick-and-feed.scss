@@ -225,3 +225,62 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 639px) {
+  .pick {
+    &_container {
+      width: 300px;
+      padding: 20px 0 40px 0;
+    }
+
+    &_title {
+      font-size: 24px;
+      margin-bottom: 13px;
+    }
+
+    &_subtitle {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    &_text-weight {
+      display: none;
+    }
+
+    &_text {
+      display: none;
+    }
+
+    &_card-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+    }
+
+    &_card-text {
+      margin-top: 10px;
+      line-height: 140%;
+    }
+
+    &_arrow-green {
+      transform: rotate(90deg);
+      left: 205px;
+      top: 190px;
+    }
+
+    &_arrow-green-two {
+      left: 205px;
+      top: 435px;
+    }
+
+    &_button {
+      margin-top: 15px;
+    }
+  }
+
+  .text-title {
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
