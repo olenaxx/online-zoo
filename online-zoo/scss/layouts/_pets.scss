@@ -36,6 +36,7 @@
   transform: translateY(80px);
   z-index: 30;
   color: $white;
+  background: rgba(95, 81, 81, 0.5);
   font-size: 20px;
   position: absolute;
 }
@@ -165,5 +166,58 @@
       font-size: 0;
       bottom: 0;
     }
+  }
+}
+
+@media (max-width: 999px) {
+  .pets {
+    &_img {
+      width: 284px;
+      height: 284px;
+    }
+  }
+
+  .card {
+    width: 285px;
+    height: 332px;
+  }
+
+  .pets_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-none {
+    display: none;
+  }
+
+  .pets_text-card {
+    padding: 0 8px 14px 16px;
+  }
+
+  .btn {
+    top: 346px;
+  }
+
+  .cards_img-two {
+    width: 175px;
+    height: 131px;
+  }
+
+  .cards_img-three {
+    height: 202px;
+    width: 190px;
+    left: -55px;
+  }
+
+  .pets_btn {
+    margin-top: 60px;
+  }
+
+  .btn-prev {
+    left: 220px;
+  }
+
+  .btn-next {
+    right: 220px;
   }
 }
