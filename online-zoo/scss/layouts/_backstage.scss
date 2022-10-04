@@ -3,7 +3,7 @@
   position: relative;
 
   &_container {
-    padding-top: 140px;
+    margin-top: 140px;
     margin-bottom: 180px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,7 +57,7 @@
 
   background-image: url("../assets/images/bamboo-cap.jpg");
   background-repeat: no-repeat;
-  width: 100%;
+  width: 609px;
   height: auto;
 }
 
@@ -70,18 +70,28 @@
 
   .backstage {
     &_container {
-      padding-top: 100px;
+      margin-top: 108px;
+      margin-bottom: 165px;
       grid-template-columns: repeat(2, 1fr);
       gap: 31px;
     }
 
+    &_title {
+      margin-top: -12px;
+    }
+
     &_text {
-      line-height: 130%;
+      line-height: 140%;
     }
 
     &_flower {
       display: none;
     }
+  }
+
+  .bamboo_cup {
+    // display: block;
+    // padding-top: 10px;
   }
 }
 
