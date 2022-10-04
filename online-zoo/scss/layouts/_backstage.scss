@@ -44,6 +44,10 @@
   &_flower-one {
     display: none;
   }
+
+  &_flower-two {
+    display: none;
+  }
 }
 
 .bamboo_cup {
@@ -111,5 +115,45 @@
 
   .bamboo_cup {
     display: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .backstage {
+    &_container {
+      padding-top: 104px;
+    }
+
+    &_title {
+      margin-bottom: 10px;
+      font-size: 24px;
+      width: 260px;
+    }
+    &_text {
+      width: 297px;
+      line-height: 140%;
+    }
+    &_subtitle {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    &_flower {
+    }
+    &_flower-one {
+      display: none;
+    }
+
+    &_flower-two {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 38px;
+    }
+  }
+  .container {
+  }
+  .bamboo {
+    &_cup {
+    }
   }
 }

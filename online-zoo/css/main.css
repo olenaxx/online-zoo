@@ -383,7 +383,6 @@ h3 {
 @media (max-width: 639px) {
   .container {
     max-width: 300px;
-    padding: 0;
   }
 }
 .button {
@@ -755,6 +754,9 @@ h3 {
 .backstage_flower-one {
   display: none;
 }
+.backstage_flower-two {
+  display: none;
+}
 
 .bamboo_cup {
   display: flex;
@@ -812,6 +814,33 @@ h3 {
 
   .bamboo_cup {
     display: none;
+  }
+}
+@media (max-width: 639px) {
+  .backstage_container {
+    padding-top: 104px;
+  }
+  .backstage_title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    width: 260px;
+  }
+  .backstage_text {
+    width: 297px;
+    line-height: 140%;
+  }
+  .backstage_subtitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .backstage_flower-one {
+    display: none;
+  }
+  .backstage_flower-two {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 38px;
   }
 }
 .hero {
