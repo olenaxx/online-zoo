@@ -135,7 +135,10 @@
 @media (max-width: 1599px) {
   .pick {
     &_container {
+      padding: 0;
       padding-top: 30px;
+      padding-bottom: 55px;
+      width: 940px;
     }
 
     &_title {
@@ -161,6 +164,7 @@
 
   .pick-and-feed {
     padding-bottom: 50px;
+    padding-top: 28px;
   }
 }
 

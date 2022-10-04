@@ -734,7 +734,7 @@ h3 {
   position: relative;
 }
 .backstage_container {
-  padding-top: 140px;
+  margin-top: 140px;
   margin-bottom: 180px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -795,12 +795,16 @@ h3 {
   }
 
   .backstage_container {
-    padding-top: 100px;
+    margin-top: 108px;
+    margin-bottom: 165px;
     grid-template-columns: repeat(2, 1fr);
     gap: 31px;
   }
+  .backstage_title {
+    margin-top: -12px;
+  }
   .backstage_text {
-    line-height: 130%;
+    line-height: 140%;
   }
   .backstage_flower {
     display: none;
@@ -930,19 +934,21 @@ h3 {
 
   .btn_hero {
     top: 403px;
+    right: 127px;
   }
 
   .ellipse {
     width: 367px;
     height: 367px;
     top: -14px;
-    right: 147px;
+    right: 168px;
   }
 
   .watch {
     top: 42px;
     font-size: 85px;
     width: 400px;
+    right: 72px;
   }
 }
 @media (max-width: 999px) {
@@ -1148,7 +1154,7 @@ h3 {
 
 .pets_container {
   position: relative;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .btn {
@@ -1203,6 +1209,9 @@ h3 {
 }
 
 @media (max-width: 1599px) {
+  .pets_container {
+    margin-bottom: 138px;
+  }
   .pets_cards {
     gap: 92px 29px;
   }
@@ -1230,11 +1239,16 @@ h3 {
   .cards_img-one {
     display: none;
   }
+  .cards_img-two {
+    bottom: -137px;
+    width: 241px;
+    height: 180px;
+  }
   .cards_img-three {
     position: absolute;
     display: block;
     font-size: 0;
-    bottom: 0;
+    bottom: -138px;
   }
 }
 @media (max-width: 999px) {
@@ -1447,7 +1461,10 @@ h3 {
 
 @media (max-width: 1599px) {
   .pick_container {
+    padding: 0;
     padding-top: 30px;
+    padding-bottom: 55px;
+    width: 940px;
   }
   .pick_title {
     margin-bottom: 20px;
@@ -1468,6 +1485,7 @@ h3 {
 
   .pick-and-feed {
     padding-bottom: 50px;
+    padding-top: 28px;
   }
 }
 @media (max-width: 999px) {
@@ -1713,6 +1731,16 @@ h3 {
 }
 
 @media (max-width: 1599px) {
+  .testimonials_img-leaf {
+    display: none;
+  }
+
+  .testimonials_img-leaf-three {
+    position: absolute;
+    right: 0;
+    bottom: -92px;
+  }
+
   .testimonials {
     margin-top: 100px;
     padding-bottom: 140px;
@@ -1721,9 +1749,15 @@ h3 {
     width: 390px;
     text-align: center;
   }
+  .testimonials_title {
+    margin-bottom: 28px;
+  }
+  .testimonials_card {
+    width: 293px;
+  }
 
   .button-two {
-    margin-top: 23px;
+    margin-top: 39px;
   }
 
   .card-inactive {
