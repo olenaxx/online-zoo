@@ -844,7 +844,7 @@ h3 {
     overflow: hidden;
   }
   .backstage_container {
-    padding-top: 104px;
+    padding-top: 0;
     margin-bottom: 40px;
   }
   .backstage_title {
@@ -977,24 +977,25 @@ h3 {
 @media (max-width: 639px) {
   .hero {
     overflow: visible;
-    height: 187px;
+    height: 223px;
   }
 
   .ellipse {
-    top: 22px;
+    top: 60px;
     right: 28px;
     width: 119px;
     height: 119px;
   }
 
   .watch {
-    top: 40px;
+    top: 78px;
     font-size: 28px;
     width: 128px;
+    right: 0;
   }
 
   .btn_hero {
-    top: 206px;
+    top: 242px;
   }
 }
 .header {
@@ -1311,6 +1312,7 @@ h3 {
 @media (max-width: 639px) {
   .pets_container {
     padding-bottom: 60px;
+    margin-bottom: 0;
   }
   .pets_cards {
     grid-template-columns: 1fr;
@@ -1328,10 +1330,12 @@ h3 {
     height: 80px;
     width: 74px;
     left: -20px;
+    bottom: 0;
   }
   .cards_img-two {
     width: 72px;
     height: 74px;
+    bottom: 0;
   }
 }
 .pick-and-feed {
@@ -1828,6 +1832,9 @@ h3 {
     height: 109px;
   }
   .testimonials_img-leaf-one {
+    display: none;
+  }
+  .testimonials_img-leaf-three {
     display: none;
   }
   .testimonials_img-leaf-two {

@@ -108,23 +108,24 @@
 @media (max-width: 639px) {
   .hero {
     overflow: visible;
-    height: 187px;
+    height: 223px;
   }
 
   .ellipse {
-    top: 22px;
+    top: 60px;
     right: 28px;
     width: 119px;
     height: 119px;
   }
 
   .watch {
-    top: 40px;
+    top: 78px;
     font-size: 28px;
     width: 128px;
+    right: 0;
   }
 
   .btn_hero {
-    top: 206px;
+    top: 242px;
   }
 }
