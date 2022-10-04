@@ -120,6 +120,7 @@
 
 @media (max-width: 639px) {
   .backstage {
+    overflow: hidden;
     &_container {
       padding-top: 104px;
       margin-bottom: 40px;

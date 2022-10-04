@@ -198,3 +198,71 @@
     // margin: 0;
   }
 }
+
+@media (max-width: 639px) {
+  .footer {
+    overflow: hidden;
+    &_container {
+    }
+    &_logo-form {
+      text-align: center;
+    }
+    &_logo {
+      // text-align: center;
+      width: 140px;
+      border: none;
+    }
+    &_icon-bamboo {
+      top: 8px;
+      left: 82px;
+      // height: 20px;
+    }
+    &_subscribe {
+    }
+    &_input {
+    }
+    &_input-submit {
+    }
+    &_button-two {
+    }
+    &_navigation {
+    }
+    &_social-networks {
+    }
+    &_social-icon {
+    }
+    &_design {
+      display: none;
+    }
+  }
+  .container {
+  }
+  .logo {
+  }
+  .title {
+  }
+  .icon {
+    &_bamboo {
+    }
+  }
+  .button-two {
+  }
+  .social-icon-list {
+  }
+  .social-icon-link {
+  }
+  .nav {
+    &_list {
+    }
+    &_item {
+    }
+    &_link {
+    }
+  }
+  .footer-nav {
+  }
+  .footer-nav-list {
+  }
+  .active {
+  }
+}

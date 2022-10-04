@@ -710,6 +710,25 @@ h3 {
     margin-top: 300px;
   }
 }
+@media (max-width: 639px) {
+  .footer {
+    overflow: hidden;
+  }
+  .footer_logo-form {
+    text-align: center;
+  }
+  .footer_logo {
+    width: 140px;
+    border: none;
+  }
+  .footer_icon-bamboo {
+    top: 8px;
+    left: 82px;
+  }
+  .footer_design {
+    display: none;
+  }
+}
 .backstage {
   color: #333b41;
   position: relative;
@@ -817,6 +836,9 @@ h3 {
   }
 }
 @media (max-width: 639px) {
+  .backstage {
+    overflow: hidden;
+  }
   .backstage_container {
     padding-top: 104px;
     margin-bottom: 40px;

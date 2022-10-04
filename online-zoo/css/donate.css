@@ -383,6 +383,7 @@ h3 {
 @media (max-width: 639px) {
   .container {
     max-width: 300px;
+    overflow: hidden;
   }
 }
 .button {
@@ -658,6 +659,25 @@ h3 {
 
   .footer_button-two {
     margin-top: 300px;
+  }
+}
+@media (max-width: 639px) {
+  .footer {
+    overflow: hidden;
+  }
+  .footer_logo-form {
+    text-align: center;
+  }
+  .footer_logo {
+    width: 140px;
+    border: none;
+  }
+  .footer_icon-bamboo {
+    top: 8px;
+    left: 82px;
+  }
+  .footer_design {
+    display: none;
   }
 }
 .donation {
