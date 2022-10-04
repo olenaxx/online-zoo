@@ -45,3 +45,10 @@ h3 {
     padding: 0;
   }
 }
+
+@media (max-width: 639px) {
+  .container {
+    max-width: 300px;
+    padding: 0;
+  }
+}

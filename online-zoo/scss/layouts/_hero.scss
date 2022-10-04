@@ -102,3 +102,27 @@
     left: 0;
   }
 }
+
+@media (max-width: 639px) {
+  .hero {
+    overflow: visible;
+    height: 187px;
+  }
+
+  .ellipse {
+    top: 22px;
+    right: 28px;
+    width: 119px;
+    height: 119px;
+  }
+
+  .watch {
+    top: 40px;
+    font-size: 28px;
+    width: 128px;
+  }
+
+  .btn_hero {
+    top: 206px;
+  }
+}
