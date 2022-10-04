@@ -783,7 +783,7 @@ h3 {
   justify-content: center;
   background-image: url("../assets/images/bamboo-cap.jpg");
   background-repeat: no-repeat;
-  width: 100%;
+  width: 609px;
   height: auto;
 }
 
@@ -884,7 +884,7 @@ h3 {
 
 .ellipse {
   position: absolute;
-  right: 108px;
+  right: 132px;
   top: 12px;
   width: 465px;
   height: 465px;
@@ -894,7 +894,7 @@ h3 {
 
 .watch {
   position: absolute;
-  right: 0;
+  right: 23px;
   top: 86px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -1158,7 +1158,7 @@ h3 {
   border-radius: 50%;
   border: none;
   position: absolute;
-  left: -82px;
+  left: -65px;
   top: 400px;
   cursor: pointer;
   z-index: 20;
@@ -1174,7 +1174,7 @@ h3 {
 
 .btn-next {
   left: auto;
-  right: -82px;
+  right: -65px;
 }
 
 .pets_btn {
