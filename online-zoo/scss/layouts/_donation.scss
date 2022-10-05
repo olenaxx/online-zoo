@@ -205,6 +205,7 @@
 }
 
 .input-number {
+  width: 268px;
   padding: 16px 9px;
   margin-bottom: 25px;
   border: 1px solid #929699;
@@ -240,74 +241,205 @@
   text-align: center;
 }
 
-@media (max-width: 639px) {
+// @media (max-width: 639px) {
+//   .panda_bg {
+//     height: 187px;
+//     background-position: center;
+//   }
+
+//   .donation {
+//     &_container {
+//       padding-top: 30px;
+//     }
+
+//     &_title {
+//       margin-bottom: 20px;
+//       font-size: 24px;
+//       line-height: 120%;
+//     }
+//   }
+// }
+
+@media (max-width: 1599px) {
+  .donation {
+    &_container {
+      padding-bottom: 30px;
+    }
+
+    &_title {
+      max-width: 778px;
+      margin-bottom: 30px;
+    }
+
+    &_text {
+      margin-bottom: 25px;
+    }
+
+    &_information {
+      margin-bottom: 38px;
+    }
+
+    &_box {
+      padding: 22px;
+      padding-left: 45px;
+      padding-right: 38px;
+      padding-bottom: 48px;
+    }
+
+    &_title-card {
+      padding-left: 0;
+      margin-bottom: 9px;
+    }
+  }
+  .another_amount {
+    margin-top: 106px;
+  }
+}
+
+@media (max-width: 999px) {
   .panda_bg {
-    height: 187px;
-    background-position: center;
+    height: 369px;
   }
 
   .donation {
     &_container {
-      padding-top: 30px;
+      padding-top: 32px;
+      padding-bottom: 48px;
     }
 
     &_title {
-      margin-bottom: 20px;
       font-size: 24px;
       line-height: 120%;
+      margin-bottom: 18px;
     }
 
-    // &_text {
-    // }
-    // &_information {
-    // }
-    // &_box {
-    // }
-    // &_title-card {
-    // }
-    // &_subtitle-card {
-    // }
-    // &_box-widget {
-    // }
-    // &_number-box {
-    // }
-    // &_number-day {
-    // }
-    // &_diet-text {
-    // }
-    // &_x-icon {
-    // }
-    // &_amount {
-    // }
-    // &_diagram {
-    // }
-    // &_diagram-line {
-    // }
-    // &_number-link {
-    // }
-    // &_number {
-    // }
-    // &_button {
-    // }
-    // &_share-text {
-    // }
+    &_text {
+      margin-bottom: 32px;
+    }
+
+    &_information {
+      margin-bottom: 28px;
+    }
+
+    &_box {
+      padding: 0;
+      padding-bottom: 30px;
+    }
+
+    &_title-card {
+      padding-top: 32px;
+      margin-bottom: 20px;
+    }
+
+    &_subtitle-card {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    &_number-box {
+      margin-top: 64px;
+    }
+
+    &_amount {
+      margin-top: 40px;
+      padding-left: 10px;
+    }
   }
-  // .container {
-  // }
-  // .active {
-  // }
-  // .active-svg {
-  // }
-  // .another {
-  //   &_amount {
-  //   }
-  // }
-  // .input-number {
-  // }
-  // .custom-radio {
-  // }
-  // .radio-monthly {
-  // }
-  // .button {
-  // }
+  .another_amount {
+    margin-top: 100px;
+  }
+
+  .input-number {
+    width: 180px;
+    height: 42px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 639px) {
+  .panda_bg {
+    height: 222px;
+  }
+
+  .donation {
+    &_container {
+    }
+    &_title {
+    }
+    &_text {
+    }
+
+    &_information {
+      font-size: 24px;
+    }
+
+    &_box {
+    }
+    &_title-card {
+      padding-top: 15px;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+    &_subtitle-card {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &_box-widget {
+      align-items: center;
+    }
+    &_number-box {
+    }
+    &_number-day {
+      font-size: 40px;
+    }
+    &_diet-text {
+      font-size: 10px;
+    }
+    &_x-icon {
+      margin-right: 20px;
+      width: 8px;
+      height: 8px;
+    }
+
+    &_panda-widget {
+      width: 160px;
+      height: 139px;
+    }
+    &_amount {
+    }
+    &_diagram {
+    }
+    &_line {
+    }
+    &_list {
+    }
+    &_link {
+    }
+    &_link-none {
+    }
+    &_link-item {
+    }
+    &_link-number {
+    }
+    &_link-none-two {
+    }
+    &_button {
+    }
+    &_share-text {
+    }
+  }
+  .container {
+  }
+  .another {
+    &_amount {
+    }
+  }
+  .input-number {
+  }
+  .custom-radio {
+  }
+  .radio-monthly {
+  }
+  .button {
+  }
 }

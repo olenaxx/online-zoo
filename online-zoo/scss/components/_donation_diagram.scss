@@ -75,3 +75,72 @@
     background: #72828e;
   }
 }
+
+@media (max-width: 1599px) {
+  .donation {
+    &_diagram {
+      width: 810px;
+      margin-left: 16px;
+    }
+
+    &_line {
+      width: 764px;
+    }
+
+    &_link-none {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .donation {
+    &_diagram {
+      width: 600px;
+      margin-left: 0;
+    }
+    &_line {
+      width: 500px;
+      margin-left: 48px;
+    }
+    &_list {
+      justify-content: space-around;
+    }
+
+    &_link-none-two {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .donation {
+    &_diagram {
+      width: 300px;
+      height: 20px;
+    }
+
+    &_line {
+      width: 254px;
+      margin-left: 30px;
+      top: 10px;
+    }
+
+    &_list {
+      padding-top: 9px;
+    }
+
+    &_link {
+      font-size: 13px;
+    }
+
+    &_link-item {
+      width: 5px;
+      height: 5px;
+    }
+
+    &_link-number {
+      font-size: 13px;
+    }
+  }
+}
