@@ -543,15 +543,16 @@ h3 {
 @media (max-width: 639px) {
   .donation_diagram {
     width: 300px;
-    height: 20px;
+    height: 13px;
   }
   .donation_line {
-    width: 254px;
-    margin-left: 30px;
-    top: 10px;
+    height: 1px;
+    width: 245px;
+    margin-left: 25px;
+    top: 5px;
   }
   .donation_list {
-    padding-top: 9px;
+    padding-top: 4px;
   }
   .donation_link {
     font-size: 13px;
@@ -559,6 +560,7 @@ h3 {
   .donation_link-item {
     width: 5px;
     height: 5px;
+    margin-left: 7px;
   }
   .donation_link-number {
     font-size: 13px;
@@ -1096,8 +1098,14 @@ h3 {
     height: 222px;
   }
 
+  .donation_container {
+    padding-bottom: 20px;
+  }
   .donation_information {
     font-size: 24px;
+  }
+  .donation_box {
+    padding-bottom: 20px;
   }
   .donation_title-card {
     padding-top: 15px;
@@ -1111,11 +1119,15 @@ h3 {
   .donation_box-widget {
     align-items: center;
   }
+  .donation_number-box {
+    margin-top: 32px;
+  }
   .donation_number-day {
     font-size: 40px;
   }
   .donation_diet-text {
     font-size: 10px;
+    margin-top: 10px;
   }
   .donation_x-icon {
     margin-right: 20px;
@@ -1125,6 +1137,25 @@ h3 {
   .donation_panda-widget {
     width: 160px;
     height: 139px;
+  }
+  .donation_amount {
+    margin-top: 5px;
+    padding-left: 0;
+  }
+  .donation_button {
+    margin-top: 24px;
+  }
+  .donation_share-text {
+    width: 301px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .another_amount {
+    margin-top: 48px;
   }
 }
 .header {
