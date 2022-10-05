@@ -1205,14 +1205,14 @@ h3 {
 .cards_img-one {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -99px;
   font-size: 0;
 }
 
 .cards_img-two {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -99px;
   font-size: 0;
 }
 
@@ -1693,6 +1693,9 @@ h3 {
 .testimonials_img-leaf-two {
   display: none;
 }
+.testimonials_img-leaf-three {
+  display: none;
+}
 .testimonials_slider {
   height: 8px;
   border-radius: 5px;
@@ -1775,6 +1778,11 @@ h3 {
   .testimonials_card {
     width: 293px;
   }
+  .testimonials_img-leaf-three {
+    display: block;
+    bottom: -94px;
+    right: 0;
+  }
 
   .button-two {
     margin-top: 39px;
@@ -1811,6 +1819,9 @@ h3 {
     display: none;
   }
   .testimonials_img-leaf {
+    display: none;
+  }
+  .testimonials_img-leaf-three {
     display: none;
   }
   .testimonials_img-leaf-one {
