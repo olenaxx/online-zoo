@@ -1,6 +1,10 @@
 .donation {
   &_diagram {
     position: relative;
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
   }
 
   &_list {
@@ -21,13 +25,18 @@
     line-height: 450%;
     color: $black_blue;
     cursor: pointer;
+    transition: 0.2s;
   }
 
-  &_link:hover::after {
+  &_link:hover {
+    color: #fe9013;
+  }
+
+  &_link:hover::before {
     content: "";
     position: absolute;
-    top: 5px;
-    left: 20px;
+    top: 3px;
+    // left: 20px;
     width: 22px;
     height: 22px;
     border: 1px solid #fe9013;
@@ -38,13 +47,17 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 450%;
     color: transparent;
     background-image: url("../assets/svg/dollar.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  // &_link-number:hover {
+  //   fill: #fe9013;
+  // }
 
   &_link-item {
     margin-left: 15px;
