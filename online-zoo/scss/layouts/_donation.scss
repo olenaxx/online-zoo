@@ -363,10 +363,7 @@
 
   .donation {
     &_container {
-    }
-    &_title {
-    }
-    &_text {
+      padding-bottom: 20px;
     }
 
     &_information {
@@ -374,27 +371,37 @@
     }
 
     &_box {
+      padding-bottom: 20px;
     }
+
     &_title-card {
       padding-top: 15px;
       margin-bottom: 12px;
       font-size: 24px;
     }
+
     &_subtitle-card {
       margin-bottom: 10px;
       font-size: 16px;
     }
+
     &_box-widget {
       align-items: center;
     }
+
     &_number-box {
+      margin-top: 32px;
     }
+
     &_number-day {
       font-size: 40px;
     }
+
     &_diet-text {
       font-size: 10px;
+      margin-top: 10px;
     }
+
     &_x-icon {
       margin-right: 20px;
       width: 8px;
@@ -405,41 +412,27 @@
       width: 160px;
       height: 139px;
     }
+
     &_amount {
+      margin-top: 5px;
+      padding-left: 0;
     }
-    &_diagram {
-    }
-    &_line {
-    }
-    &_list {
-    }
-    &_link {
-    }
-    &_link-none {
-    }
-    &_link-item {
-    }
-    &_link-number {
-    }
-    &_link-none-two {
-    }
+
     &_button {
+      margin-top: 24px;
     }
+
     &_share-text {
+      width: 301px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
     }
   }
-  .container {
-  }
-  .another {
-    &_amount {
-    }
-  }
-  .input-number {
-  }
-  .custom-radio {
-  }
-  .radio-monthly {
-  }
-  .button {
+
+  .another_amount {
+    margin-top: 48px;
   }
 }
