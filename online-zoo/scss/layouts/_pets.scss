@@ -181,6 +181,10 @@
 
 @media (max-width: 999px) {
   .pets {
+    &_container {
+      margin-bottom: 100px;
+    }
+
     &_img {
       width: 284px;
       height: 284px;
@@ -211,12 +215,14 @@
   .cards_img-two {
     width: 175px;
     height: 131px;
+    bottom: -99px;
   }
 
   .cards_img-three {
     height: 202px;
     width: 190px;
     left: -55px;
+    bottom: -99px;
   }
 
   .pets_btn {
