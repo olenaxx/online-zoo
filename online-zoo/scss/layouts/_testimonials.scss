@@ -91,6 +91,9 @@
   &_img-leaf-two {
     display: none;
   }
+  &_img-leaf-three {
+    display: none;
+  }
 
   &_slider {
     height: 8px;
@@ -180,21 +183,11 @@
       width: 293px;
     }
 
-    // &_img-leaf {
-    //   display: none;
-    // }
-
-    // &_img-leaf-one {
-    //   display: block;
-    //   bottom: 0;
-    // }
-
-    // &_img-leaf {
-    //   display: block;
-    //   width: 100px;
-    //   height: 100px;
-    //   bottom: 0;
-    // }
+    &_img-leaf-three {
+      display: block;
+      bottom: -94px;
+      right: 0;
+    }
   }
 
   .button-two {
@@ -238,6 +231,10 @@
     }
 
     &_img-leaf {
+      display: none;
+    }
+
+    &_img-leaf-three {
       display: none;
     }
 
