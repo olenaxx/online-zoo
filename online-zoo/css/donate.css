@@ -443,6 +443,67 @@ h3 {
   background: #4b9200;
 }
 
+.donation_diagram {
+  position: relative;
+}
+.donation_list {
+  padding: 0 0 0 26px;
+  padding-top: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.donation_link {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 450%;
+  color: #333b41;
+  cursor: pointer;
+}
+.donation_link:hover::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #fe9013;
+  border-radius: 50%;
+}
+.donation_link-number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 450%;
+  color: transparent;
+  background-image: url("../assets/svg/dollar.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.donation_link-item {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ffee2e;
+  border-radius: 50%;
+  z-index: 10;
+}
+.donation_line {
+  position: absolute;
+  margin-left: 24px;
+  top: 13px;
+  width: 916px;
+  height: 2px;
+  text-align: center;
+  z-index: 5;
+  background: #72828e;
+}
+
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
@@ -781,6 +842,7 @@ h3 {
 }
 .donation_subtitle-card {
   margin: 0;
+  margin-bottom: 58px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-style: normal;
@@ -817,6 +879,7 @@ h3 {
 }
 .donation_diet-text {
   padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;

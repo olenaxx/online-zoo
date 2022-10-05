@@ -52,6 +52,7 @@
   }
   &_subtitle-card {
     margin: 0;
+    margin-bottom: 58px;
     @include font-family();
     font-style: normal;
     font-weight: 400;
@@ -91,6 +92,8 @@
 
   &_diet-text {
     padding: 0;
+    margin: 0;
+
     @include font-family();
     font-weight: 400;
     font-size: 16px;
@@ -253,57 +256,57 @@
       line-height: 120%;
     }
 
-    &_text {
-    }
-    &_information {
-    }
-    &_box {
-    }
-    &_title-card {
-    }
-    &_subtitle-card {
-    }
-    &_box-widget {
-    }
-    &_number-box {
-    }
-    &_number-day {
-    }
-    &_diet-text {
-    }
-    &_x-icon {
-    }
-    &_amount {
-    }
-    &_diagram {
-    }
-    &_diagram-line {
-    }
-    &_number-link {
-    }
-    &_number {
-    }
-    &_button {
-    }
-    &_share-text {
-    }
+    // &_text {
+    // }
+    // &_information {
+    // }
+    // &_box {
+    // }
+    // &_title-card {
+    // }
+    // &_subtitle-card {
+    // }
+    // &_box-widget {
+    // }
+    // &_number-box {
+    // }
+    // &_number-day {
+    // }
+    // &_diet-text {
+    // }
+    // &_x-icon {
+    // }
+    // &_amount {
+    // }
+    // &_diagram {
+    // }
+    // &_diagram-line {
+    // }
+    // &_number-link {
+    // }
+    // &_number {
+    // }
+    // &_button {
+    // }
+    // &_share-text {
+    // }
   }
-  .container {
-  }
-  .active {
-  }
-  .active-svg {
-  }
-  .another {
-    &_amount {
-    }
-  }
-  .input-number {
-  }
-  .custom-radio {
-  }
-  .radio-monthly {
-  }
-  .button {
-  }
+  // .container {
+  // }
+  // .active {
+  // }
+  // .active-svg {
+  // }
+  // .another {
+  //   &_amount {
+  //   }
+  // }
+  // .input-number {
+  // }
+  // .custom-radio {
+  // }
+  // .radio-monthly {
+  // }
+  // .button {
+  // }
 }
