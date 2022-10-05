@@ -299,8 +299,8 @@
 @media (max-width: 999px) {
   .panda_bg {
     height: 369px;
-    // background-position: center;
   }
+
   .donation {
     &_container {
       padding-top: 32px;
@@ -353,5 +353,93 @@
     width: 180px;
     height: 42px;
     margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 639px) {
+  .panda_bg {
+    height: 222px;
+  }
+
+  .donation {
+    &_container {
+    }
+    &_title {
+    }
+    &_text {
+    }
+
+    &_information {
+      font-size: 24px;
+    }
+
+    &_box {
+    }
+    &_title-card {
+      padding-top: 15px;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+    &_subtitle-card {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &_box-widget {
+      align-items: center;
+    }
+    &_number-box {
+    }
+    &_number-day {
+      font-size: 40px;
+    }
+    &_diet-text {
+      font-size: 10px;
+    }
+    &_x-icon {
+      margin-right: 20px;
+      width: 8px;
+      height: 8px;
+    }
+
+    &_panda-widget {
+      width: 160px;
+      height: 139px;
+    }
+    &_amount {
+    }
+    &_diagram {
+    }
+    &_line {
+    }
+    &_list {
+    }
+    &_link {
+    }
+    &_link-none {
+    }
+    &_link-item {
+    }
+    &_link-number {
+    }
+    &_link-none-two {
+    }
+    &_button {
+    }
+    &_share-text {
+    }
+  }
+  .container {
+  }
+  .another {
+    &_amount {
+    }
+  }
+  .input-number {
+  }
+  .custom-radio {
+  }
+  .radio-monthly {
+  }
+  .button {
   }
 }

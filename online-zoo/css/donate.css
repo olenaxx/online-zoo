@@ -540,6 +540,30 @@ h3 {
     display: none;
   }
 }
+@media (max-width: 639px) {
+  .donation_diagram {
+    width: 300px;
+    height: 20px;
+  }
+  .donation_line {
+    width: 254px;
+    margin-left: 30px;
+    top: 10px;
+  }
+  .donation_list {
+    padding-top: 9px;
+  }
+  .donation_link {
+    font-size: 13px;
+  }
+  .donation_link-item {
+    width: 5px;
+    height: 5px;
+  }
+  .donation_link-number {
+    font-size: 13px;
+  }
+}
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
@@ -1065,6 +1089,42 @@ h3 {
     width: 180px;
     height: 42px;
     margin-bottom: 32px;
+  }
+}
+@media (max-width: 639px) {
+  .panda_bg {
+    height: 222px;
+  }
+
+  .donation_information {
+    font-size: 24px;
+  }
+  .donation_title-card {
+    padding-top: 15px;
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+  .donation_subtitle-card {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .donation_box-widget {
+    align-items: center;
+  }
+  .donation_number-day {
+    font-size: 40px;
+  }
+  .donation_diet-text {
+    font-size: 10px;
+  }
+  .donation_x-icon {
+    margin-right: 20px;
+    width: 8px;
+    height: 8px;
+  }
+  .donation_panda-widget {
+    width: 160px;
+    height: 139px;
   }
 }
 .header {

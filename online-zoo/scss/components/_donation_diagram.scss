@@ -106,14 +106,41 @@
     &_list {
       justify-content: space-around;
     }
-    &_link {
-    }
+
     &_link-none-two {
       display: none;
     }
-    &_link-item {
+  }
+}
+
+@media (max-width: 639px) {
+  .donation {
+    &_diagram {
+      width: 300px;
+      height: 20px;
     }
+
+    &_line {
+      width: 254px;
+      margin-left: 30px;
+      top: 10px;
+    }
+
+    &_list {
+      padding-top: 9px;
+    }
+
+    &_link {
+      font-size: 13px;
+    }
+
+    &_link-item {
+      width: 5px;
+      height: 5px;
+    }
+
     &_link-number {
+      font-size: 13px;
     }
   }
 }
