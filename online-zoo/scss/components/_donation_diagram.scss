@@ -75,3 +75,20 @@
     background: #72828e;
   }
 }
+
+@media (max-width: 1599px) {
+  .donation {
+    &_diagram {
+      width: 810px;
+      margin-left: 16px;
+    }
+
+    &_line {
+      width: 764px;
+    }
+
+    &_link-none {
+      display: none;
+    }
+  }
+}

@@ -512,6 +512,18 @@ h3 {
   background: #72828e;
 }
 
+@media (max-width: 1599px) {
+  .donation_diagram {
+    width: 810px;
+    margin-left: 16px;
+  }
+  .donation_line {
+    width: 764px;
+  }
+  .donation_link-none {
+    display: none;
+  }
+}
 .logo {
   position: relative;
   padding: 3.55px 4.75px;
@@ -924,6 +936,7 @@ h3 {
 }
 
 .input-number {
+  width: 268px;
   padding: 16px 9px;
   margin-bottom: 25px;
   border: 1px solid #929699;
@@ -959,19 +972,33 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 639px) {
-  .panda_bg {
-    height: 187px;
-    background-position: center;
-  }
-
+@media (max-width: 1599px) {
   .donation_container {
-    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .donation_title {
-    margin-bottom: 20px;
-    font-size: 24px;
-    line-height: 120%;
+    width: 778px;
+    margin-bottom: 30px;
+  }
+  .donation_text {
+    margin-bottom: 25px;
+  }
+  .donation_information {
+    margin-bottom: 38px;
+  }
+  .donation_box {
+    padding: 22px;
+    padding-left: 45px;
+    padding-right: 38px;
+    padding-bottom: 48px;
+  }
+  .donation_title-card {
+    padding-left: 0;
+    margin-bottom: 9px;
+  }
+
+  .another_amount {
+    margin-top: 106px;
   }
 }
 .header {
