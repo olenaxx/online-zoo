@@ -92,3 +92,28 @@
     }
   }
 }
+
+@media (max-width: 999px) {
+  .donation {
+    &_diagram {
+      width: 600px;
+      margin-left: 0;
+    }
+    &_line {
+      width: 500px;
+      margin-left: 48px;
+    }
+    &_list {
+      justify-content: space-around;
+    }
+    &_link {
+    }
+    &_link-none-two {
+      display: none;
+    }
+    &_link-item {
+    }
+    &_link-number {
+    }
+  }
+}
