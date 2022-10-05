@@ -447,7 +447,7 @@ h3 {
   position: relative;
 }
 .donation_list {
-  padding: 0 0 0 26px;
+  padding: 0;
   padding-top: 9px;
   display: flex;
   justify-content: space-between;
@@ -486,6 +486,7 @@ h3 {
   background-size: contain;
 }
 .donation_link-item {
+  margin-left: 15px;
   position: absolute;
   width: 10px;
   height: 10px;
@@ -497,7 +498,7 @@ h3 {
   position: absolute;
   margin-left: 24px;
   top: 13px;
-  width: 916px;
+  width: 922px;
   height: 2px;
   text-align: center;
   z-index: 5;
