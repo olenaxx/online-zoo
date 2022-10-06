@@ -1,0 +1,20 @@
+.footer {
+  &_design {
+    margin-top: auto;
+    @include font-family();
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 170%;
+    color: #ffffff;
+    transition: 0.2s;
+  }
+
+  &_design:hover {
+    color: $green;
+  }
+
+  &_design:active {
+    color: $green;
+    text-decoration: underline;
+  }
+}
