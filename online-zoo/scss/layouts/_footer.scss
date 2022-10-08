@@ -1,268 +1,178 @@
 .footer {
   background: #111115;
-  padding-bottom: 50px;
 
   &_container {
     padding-top: 40px;
-  }
-
-  &_logo-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    padding-bottom: 50px;
   }
 
   &_logo {
     margin: 0;
+    margin-bottom: 70px;
+    display: block;
+    width: 82px;
+    height: 52px;
   }
 
-  &_subscribe {
-    margin: 0;
-    @include font-family();
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
-    margin-bottom: 14px;
-    color: #ffffff;
-  }
-
-  &_input {
-    height: 42px;
-    padding: 10px;
-    margin-right: 10px;
-    background: transparent;
-    border: 0.7px solid #fa6f32;
-    border-radius: 2px;
-    color: #ffffff;
-  }
-
-  &_input:focus {
-    border: 0.7px solid $green;
-    outline: $green;
-  }
-
-  &_input::placeholder {
-    @include font-family();
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #bdbdbd;
-  }
-  &_input-submit {
-    height: 42px;
-    padding: 10px 39px;
-    background: #f1f3f2;
-    border: 1px solid $green;
-    border-radius: 5px;
-    @include font-family();
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: $green;
-    cursor: pointer;
-  }
-
-  &_button-two {
-    margin-top: 36px;
-  }
-
-  &_navigation {
+  &_section-one {
     display: flex;
     justify-content: space-between;
   }
 
-  &_social-networks {
-    margin-top: 34px;
-    margin-right: 115px;
-  }
-
-  &_social-icon {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    background: $gray;
+  &_section-two {
+    margin-top: 48px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 12px;
+    justify-content: space-between;
   }
 
-  &_social-icon:active {
-    background: $green;
+  &_button-two {
+    margin: 0;
   }
 
-  &_design {
+  &_nav {
     margin-top: auto;
-
-    @include font-family();
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 170%;
-    color: #ffffff;
+    margin-left: 146px;
   }
-
-  &_design:active {
-    color: $green;
-    text-decoration: underline;
+  &_nav-list {
+    margin-top: auto;
+    margin-left: 60px;
   }
-}
-
-.footer-nav {
-  margin-top: auto;
-}
-
-.social-icon-link {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-
-  @include font-family();
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: #ffffff;
-}
-
-.social-icon-link:active {
-  color: $green;
-}
-
-.social-icon-list {
-  padding-left: 0;
-  margin: 0;
-}
-
-.footer-nav-list {
-  margin-left: 178px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 @media (max-width: 1599px) {
-  .footer_container {
-    padding: 40px 30px 0 30px;
+  .footer {
+    &_subscribe-box {
+      margin-right: 30px;
+    }
+
+    &_nav {
+      margin-left: 58px;
+    }
+
+    &_design {
+      margin-bottom: 14px;
+    }
+
+    &_nav-list {
+      margin-left: 84px;
+    }
   }
 }
 
 @media (max-width: 999px) {
-  .footer_container {
-    padding: 12px 20px;
-  }
-
   .footer {
-    &_logo {
-      @include font-family();
-      font-weight: 400;
-      font-size: 19px;
-      line-height: 120%;
-      text-align: center;
-
-      color: #ffffff;
-
-      width: 82px;
-      height: 52px;
-      border: 1px solid #ffffff;
-      border-radius: 2px;
+    &_container {
+      position: relative;
+      padding: 12px 0;
     }
-    &_icon-bamboo {
+
+    &_button-two {
+      margin-top: -38px;
+      width: 298px;
+    }
+
+    &_subscribe-box {
+      display: none;
+    }
+
+    &_section-two {
+      margin-top: 68px;
+    }
+
+    &_nav {
+      margin-left: 0;
+    }
+
+    &_network-list {
       position: absolute;
-      top: 23px;
-      left: 10px;
+      top: 15px;
+      right: 0;
     }
-  }
 
-  .footer {
-    &_subscribe {
+    &_network-link {
+      margin-bottom: 20px;
+    }
+
+    &_social-text {
       display: none;
     }
-    &_input {
-      display: none;
+
+    &_nav-list {
+      margin-left: 0;
     }
-    &_input-submit {
-      display: none;
-    }
-  }
-
-  .footer_logo-form {
-    display: flex;
-    // display: none;
-    // display: inline;
-  }
-
-  .button-two {
-    // margin: 0;
-  }
-
-  .footer_button-two {
-    margin-top: 300px;
-    // margin: 0;
   }
 }
 
 @media (max-width: 639px) {
   .footer {
-    overflow: hidden;
     &_container {
+      padding-top: 6px;
     }
-    &_logo-form {
-      text-align: center;
+    &_section-one {
     }
     &_logo {
-      // text-align: center;
-      width: 140px;
       border: none;
+      width: 140px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     &_icon-bamboo {
-      top: 8px;
       left: 82px;
-      // height: 20px;
+      top: 7px;
     }
-    &_subscribe {
-    }
-    &_input {
-    }
-    &_input-submit {
-    }
+
     &_button-two {
+      margin-top: 10px;
     }
-    &_navigation {
+    &_subscribe-box {
     }
-    &_social-networks {
+    &_subscribe-title {
+    }
+    &_form-input {
+    }
+    &_form-button {
+    }
+    &_section-two {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    &_network-list {
+      display: flex;
+      flex-direction: row;
+      top: 73px;
+      text-align: center;
+      left: 35px;
+      right: auto;
+      // justify-content: center;
+      // align-items: center;
+    }
+    &_network-link {
     }
     &_social-icon {
+      margin: 0 15px;
+    }
+    &_social-text {
+    }
+    &_nav {
+    }
+    &_nav-list {
+      margin-bottom: 0;
+      display: block;
+      width: 280px;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
     }
     &_design {
-      display: none;
+      margin-left: auto;
+      margin-bottom: 30px;
+
+      @include font-family();
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 165%;
     }
-  }
-  .container {
-  }
-  .logo {
-  }
-  .title {
-  }
-  .icon {
-    &_bamboo {
-    }
-  }
-  .button-two {
-  }
-  .social-icon-list {
-  }
-  .social-icon-link {
-  }
-  .nav {
-    &_list {
-    }
-    &_item {
-    }
-    &_link {
-    }
-  }
-  .footer-nav {
-  }
-  .footer-nav-list {
-  }
-  .active {
   }
 }

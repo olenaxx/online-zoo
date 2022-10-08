@@ -1,0 +1,43 @@
+.footer {
+  &_subscribe-title {
+    margin-bottom: 14px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+
+  &_form-input {
+    width: 228px;
+    height: 42px;
+    padding: 10px 7px 10px 10px;
+    margin-right: 10px;
+    background: transparent;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #f9804b;
+    color: #ffffff;
+  }
+
+  &_form-input::placeholder {
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #bdbdbd;
+  }
+
+  &_form-button {
+    width: 129px;
+    height: 42px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: $green;
+    border: 1px solid $green;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
