@@ -386,6 +386,7 @@ h3 {
   }
 }
 .footer_network-list {
+  margin: 0;
   padding-left: 0;
   display: flex;
   flex-direction: column;
@@ -594,6 +595,7 @@ h3 {
 }
 .footer_design {
   margin-top: auto;
+  margin-bottom: 17px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -710,14 +712,31 @@ h3 {
   padding-bottom: 50px;
 }
 .footer_logo {
+  margin: 0;
+  margin-bottom: 70px;
   display: block;
   width: 82px;
   height: 52px;
 }
-.footer_grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+.footer_section-one {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_section-two {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_button-two {
+  margin: 0;
+}
+.footer_nav {
+  margin-top: auto;
+  margin-left: 90px;
+}
+.footer_nav-list {
+  margin-top: auto;
+  margin-left: 60px;
 }
 
 .donation {
