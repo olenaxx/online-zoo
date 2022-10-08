@@ -31,10 +31,148 @@
 
   &_nav {
     margin-top: auto;
-    margin-left: 90px;
+    margin-left: 146px;
   }
   &_nav-list {
     margin-top: auto;
     margin-left: 60px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .footer {
+    &_subscribe-box {
+      margin-right: 30px;
+    }
+
+    &_nav {
+      margin-left: 58px;
+    }
+
+    &_design {
+      margin-bottom: 14px;
+    }
+
+    &_nav-list {
+      margin-left: 84px;
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .footer {
+    &_container {
+      position: relative;
+      padding: 12px 0;
+    }
+
+    &_button-two {
+      margin-top: -38px;
+      width: 298px;
+    }
+
+    &_subscribe-box {
+      display: none;
+    }
+
+    &_section-two {
+      margin-top: 68px;
+    }
+
+    &_nav {
+      margin-left: 0;
+    }
+
+    &_network-list {
+      position: absolute;
+      top: 15px;
+      right: 0;
+    }
+
+    &_network-link {
+      margin-bottom: 20px;
+    }
+
+    &_social-text {
+      display: none;
+    }
+
+    &_nav-list {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .footer {
+    &_container {
+      padding-top: 6px;
+    }
+    &_section-one {
+    }
+    &_logo {
+      border: none;
+      width: 140px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &_icon-bamboo {
+      left: 82px;
+      top: 7px;
+    }
+
+    &_button-two {
+      margin-top: 10px;
+    }
+    &_subscribe-box {
+    }
+    &_subscribe-title {
+    }
+    &_form-input {
+    }
+    &_form-button {
+    }
+    &_section-two {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    &_network-list {
+      display: flex;
+      flex-direction: row;
+      top: 73px;
+      text-align: center;
+      left: 35px;
+      right: auto;
+      // justify-content: center;
+      // align-items: center;
+    }
+    &_network-link {
+    }
+    &_social-icon {
+      margin: 0 15px;
+    }
+    &_social-text {
+    }
+    &_nav {
+    }
+    &_nav-list {
+      margin-bottom: 0;
+      display: block;
+      width: 280px;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &_design {
+      margin-left: auto;
+      margin-bottom: 30px;
+
+      @include font-family();
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 165%;
+    }
   }
 }

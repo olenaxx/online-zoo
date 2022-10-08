@@ -24,8 +24,12 @@
   left: 10px;
 }
 
+.header-logo {
+  margin-right: 28px;
+}
+
 @media (max-width: 999px) {
-  .logo {
+  .header-logo {
     margin: 0;
     margin-bottom: 2px;
     font-size: 12px;
