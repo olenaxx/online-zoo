@@ -1,6 +1,5 @@
 .header {
   background: #000000;
-  // position: relative;
 }
 
 .header_title {
@@ -8,7 +7,9 @@
 }
 
 .designed {
+  display: block;
   margin-left: auto;
+  right: 0;
   color: $gray_light;
   @include font-family();
   font-weight: 500;
@@ -21,6 +22,7 @@
 }
 
 .header_container {
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -43,7 +45,15 @@
     display: none;
   }
 
-  // .header_nav-list {
-  //   display: none;
-  // }
+  .header_nav {
+    position: absolute;
+    top: 0;
+  }
+
+  .header_nav.open {
+    max-width: 600px;
+    height: 400px;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.9);
+  }
 }

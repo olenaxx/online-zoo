@@ -1,6 +1,19 @@
+.burger-menu {
+  display: none;
+}
+
 @media (max-width: 999px) {
   .burger-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 28px;
+    width: 28px;
     cursor: pointer;
+  }
+
+  .burger-menu.open {
+    padding: 10px;
   }
 
   .line {
@@ -33,16 +46,18 @@
     border-radius: 2px;
   }
 
-  .line.active {
-    width: 0;
+  .header_nav.open .line {
+    background: transparent;
   }
 
-  .line.active::before {
+  .header_nav.open .line::before {
     rotate: 45deg;
     top: -2px;
+    background: $black_blue;
   }
-  .line.active::after {
+  .header_nav.open .line::after {
     rotate: -45deg;
     bottom: 2px;
+    background: $black_blue;
   }
 }
