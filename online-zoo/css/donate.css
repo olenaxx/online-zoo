@@ -698,10 +698,6 @@ h3 {
     cursor: pointer;
   }
 
-  .burger-menu.open {
-    padding: 10px;
-  }
-
   .line {
     position: absolute;
     right: 0;
@@ -741,12 +737,14 @@ h3 {
     rotate: 45deg;
     top: -2px;
     background: #333b41;
+    margin-right: 10px;
   }
 
   .header_nav.open .line::after {
     rotate: -45deg;
     bottom: 2px;
     background: #333b41;
+    margin-right: 10px;
   }
 }
 .button {
@@ -1320,6 +1318,11 @@ h3 {
     height: 400px;
     width: 100vw;
     background: rgba(255, 255, 255, 0.9);
+  }
+}
+@media (max-width: 639px) {
+  .header_nav.open {
+    max-width: 300px;
   }
 }
 .nav_link {
