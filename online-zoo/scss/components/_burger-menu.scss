@@ -12,10 +12,6 @@
     cursor: pointer;
   }
 
-  .burger-menu.open {
-    padding: 10px;
-  }
-
   .line {
     position: absolute;
     right: 0;
@@ -54,10 +50,12 @@
     rotate: 45deg;
     top: -2px;
     background: $black_blue;
+    margin-right: 10px;
   }
   .header_nav.open .line::after {
     rotate: -45deg;
     bottom: 2px;
     background: $black_blue;
+    margin-right: 10px;
   }
 }
