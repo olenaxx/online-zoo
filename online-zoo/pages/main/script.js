@@ -1,5 +1,3 @@
-alert ('Огромная просьба. \nПроверьте, пожалуйста работу в четверг. \nЗаранее благодарна!')
-
 const burger_menu = document.querySelector('.burger-menu')
 const header_nav = document.querySelector('.header_nav')
 const header_logo = document.querySelector('.header-logo')
@@ -28,3 +26,7 @@ burger_menu.addEventListener('click', () => {
 })
 
 links.forEach(link => link.addEventListener(('click'), () => closeMenu()))
+
+overlay.addEventListener('click', () => {
+  closeMenu()
+})
