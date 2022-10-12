@@ -1,0 +1,11 @@
+.carousel {
+  display: flex;
+}
+
+.cards-wrapper {
+  display: none;
+}
+
+.cards-wrapper.active {
+  display: block;
+}

@@ -1,3 +1,5 @@
+// -------------------Burger Menu--------------------------
+
 const burger_menu = document.querySelector('.burger-menu')
 const header_nav = document.querySelector('.header_nav')
 const header_logo = document.querySelector('.header-logo')
@@ -30,3 +32,50 @@ links.forEach(link => link.addEventListener(('click'), () => closeMenu()))
 overlay.addEventListener('click', () => {
   closeMenu()
 })
+
+// -----------------------Carousel-------------------------------
+
+const cards = [...document.querySelectorAll('.cards-wrapper')]
+console.log(cards);
+const btn_prev = document.querySelector('.btn-prev')
+const btn_next = document.querySelector('.btn-next')
+
+
+let currentIndex = 0
+
+const activeSlide = n => {
+  for (const card of cards) {
+    card.classList.remove('active')
+  }
+  cards[n].classList.add('active')
+}
+
+
+const prevSlide = () => {
+  if (currentIndex  === 0) {
+    currentIndex  = cards.length - 1
+  } else {
+    currentIndex--
+  }
+    changeSlide(currentIndex)
+
+}
+
+const nextSlide = () => {
+  if (currentIndex === cards.length - 1) {
+    currentIndex = 0    
+  } else {
+    currentIndex++
+  }
+  changeSlide(currentIndex)
+}
+
+function changeSlide(index) {
+  console.log('index', index);
+  cards.forEach(card => card.classList.remove('active'))
+  cards[index].classList.add('active')
+}
+
+
+btn_prev.addEventListener('click', prevSlide)
+btn_next.addEventListener('click', nextSlide)
