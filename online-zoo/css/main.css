@@ -574,6 +574,18 @@ h3 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.carousel {
+  display: flex;
+}
+
+.cards-wrapper {
+  display: none;
+}
+
+.cards-wrapper.active {
+  display: block;
+}
+
 .footer_design {
   margin-top: auto;
   margin-bottom: 17px;
