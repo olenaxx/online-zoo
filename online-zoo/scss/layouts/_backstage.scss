@@ -1,0 +1,169 @@
+.backstage {
+  color: $black_blue;
+  position: relative;
+
+  &_container {
+    margin-top: 140px;
+    margin-bottom: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 87px;
+  }
+
+  &_title {
+    margin-bottom: 20px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  &_text {
+    margin: 0;
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  &_subtitle {
+    margin-top: 54px;
+    margin-bottom: 34px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  &_flower {
+    position: absolute;
+    right: 0;
+    top: 12px;
+  }
+
+  &_flower-one {
+    display: none;
+  }
+
+  &_flower-two {
+    display: none;
+  }
+}
+
+.bamboo_cup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../assets/images/bamboo-cap.jpg");
+  background-repeat: no-repeat;
+  width: 609px;
+  height: auto;
+}
+
+@media (max-width: 1599px) {
+  .bamboo_cup {
+    background-image: url("../assets/images/bamboo-cap1.jpg");
+    max-width: 455px;
+    width: 100%;
+  }
+
+  .backstage {
+    &_container {
+      margin-top: 108px;
+      margin-bottom: 165px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 31px;
+    }
+
+    &_title {
+      margin-top: -12px;
+    }
+
+    &_text {
+      line-height: 140%;
+    }
+
+    &_flower {
+      display: none;
+    }
+  }
+
+  .bamboo_cup {
+    // display: block;
+    // padding-top: 10px;
+  }
+}
+
+@media (max-width: 999px) {
+  .backstage {
+    position: relative;
+    &_container {
+      display: block;
+      margin-top: 70px;
+      padding-left: 10px;
+      margin-bottom: 80px;
+    }
+    &_title {
+      width: 495px;
+    }
+
+    &_text {
+      width: 495px;
+    }
+
+    &_subtitle {
+      margin-top: 32px;
+      margin-bottom: 18px;
+      width: 495px;
+    }
+
+    &_flower-one {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .bamboo_cup {
+    display: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .backstage {
+    overflow: hidden;
+    &_container {
+      margin-top: 118px;
+      margin-bottom: 40px;
+    }
+
+    &_title {
+      margin-bottom: 10px;
+      font-size: 24px;
+      width: 260px;
+    }
+
+    &_text {
+      width: 297px;
+      line-height: 140%;
+    }
+
+    &_subtitle {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    &_flower-one {
+      display: none;
+    }
+
+    &_flower-two {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 38px;
+    }
+  }
+}

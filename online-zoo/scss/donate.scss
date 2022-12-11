@@ -1,0 +1,26 @@
+// abstracts
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+@import "./abstracts/variables";
+@import "./abstracts/fonts";
+
+// base
+@import "./base/normalize";
+@import "./base/typography";
+
+// components
+@import "./components/social-network";
+@import "./components/donation_diagram";
+@import "./components/logo";
+@import "./components/footer-design";
+@import "./components/footer-form";
+@import "./components/burger-menu";
+@import "./components/buttons";
+@import "./components/overlay";
+
+// layouts
+@import "./layouts/footer";
+@import "./layouts/donation";
+@import "./layouts/header";
+@import "./layouts/navigation";
+@import "./layouts/testimonials";

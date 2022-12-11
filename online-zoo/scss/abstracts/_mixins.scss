@@ -1,0 +1,11 @@
+@mixin font-family() {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+$break-points: (
+  mobile: 320px,
+  tablet: 640px,
+  desktop: 1000px,
+  desktopHD: 1600px,
+);

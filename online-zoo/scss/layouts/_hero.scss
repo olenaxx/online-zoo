@@ -1,0 +1,132 @@
+.hero {
+  overflow: hidden;
+  background: #283035;
+  background-image: url("../assets/images/g-panda.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero_container {
+  position: relative;
+}
+
+.ellipse {
+  position: absolute;
+  right: 132px;
+  top: 12px;
+
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background: $orange;
+}
+
+.watch {
+  position: absolute;
+  right: 23px;
+  top: 86px;
+
+  @include font-family();
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.watch span {
+  color: $yellow;
+}
+
+.btn_hero {
+  position: absolute;
+  top: 546px;
+  right: 100px;
+}
+
+.hero_title {
+  display: none;
+}
+
+@media (max-width: 1599px) {
+  .hero {
+    height: 504px;
+  }
+
+  .btn_hero {
+    top: 403px;
+    right: 127px;
+  }
+
+  .ellipse {
+    width: 367px;
+    height: 367px;
+    top: -14px;
+    right: 168px;
+  }
+
+  .watch {
+    top: 42px;
+    font-size: 85px;
+    width: 400px;
+    right: 72px;
+  }
+}
+
+@media (max-width: 999px) {
+  .hero {
+    height: 375px;
+  }
+
+  .ellipse {
+    width: 237px;
+    height: 237px;
+    top: 48px;
+    right: 50px;
+  }
+
+  .watch {
+    top: 86px;
+    right: -8px;
+    font-size: 54px;
+    width: 255px;
+  }
+
+  .btn_hero {
+    top: 283px;
+    left: 8px;
+  }
+}
+
+@media (max-width: 639px) {
+  .hero {
+    overflow: visible;
+    height: 223px;
+  }
+
+  .ellipse {
+    top: 60px;
+    right: 28px;
+    width: 119px;
+    height: 119px;
+  }
+
+  .watch {
+    top: 78px;
+    font-size: 28px;
+    width: 128px;
+    right: 0;
+  }
+
+  .btn_hero {
+    top: 242px;
+  }
+}

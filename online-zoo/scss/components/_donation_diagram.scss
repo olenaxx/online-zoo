@@ -1,0 +1,148 @@
+.donation {
+  &_diagram {
+    position: relative;
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+  }
+
+  &_list {
+    padding: 0;
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+
+  &_link {
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 450%;
+    color: $black_blue;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  &_link:hover {
+    color: #fe9013;
+  }
+
+  &_link:hover::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #fe9013;
+    border-radius: 50%;
+  }
+
+  &_link-number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 450%;
+    color: transparent;
+    background-image: url("../assets/svg/dollar.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &_link-item {
+    margin-left: 15px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: $yellow;
+    border-radius: 50%;
+    z-index: 10;
+  }
+
+  &_line {
+    position: absolute;
+    margin-left: 24px;
+    top: 13px;
+    width: 922px;
+    height: 2px;
+    text-align: center;
+    z-index: 5;
+    background: #72828e;
+  }
+}
+
+@media (max-width: 1599px) {
+  .donation {
+    &_diagram {
+      width: 810px;
+      margin-left: 16px;
+    }
+
+    &_line {
+      width: 764px;
+    }
+
+    &_link-none {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .donation {
+    &_diagram {
+      width: 600px;
+      margin-left: 0;
+    }
+    &_line {
+      width: 500px;
+      margin-left: 48px;
+    }
+    &_list {
+      justify-content: space-around;
+    }
+
+    &_link-none-two {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .donation {
+    &_diagram {
+      width: 300px;
+      height: 13px;
+    }
+
+    &_line {
+      height: 1px;
+      width: 245px;
+      margin-left: 25px;
+      top: 5px;
+    }
+
+    &_list {
+      padding-top: 4px;
+    }
+
+    &_link {
+      font-size: 13px;
+    }
+
+    &_link-item {
+      width: 5px;
+      height: 5px;
+      margin-left: 7px;
+    }
+
+    &_link-number {
+      font-size: 13px;
+    }
+  }
+}

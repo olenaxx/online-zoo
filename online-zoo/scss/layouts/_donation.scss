@@ -1,0 +1,419 @@
+.donation {
+  background: $orange_gradient;
+
+  &_container {
+    padding-top: 40px;
+    padding-bottom: 180px;
+  }
+
+  &_title {
+    margin-bottom: 10px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  &_text {
+    margin-bottom: 40px;
+
+    @include font-family();
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  &_information {
+    margin-bottom: 60px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #fe9013;
+  }
+
+  &_box {
+    padding: 40px 92px 62px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+  }
+
+  &_title-card {
+    margin-bottom: 20px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+  &_subtitle-card {
+    margin: 0;
+    margin-bottom: 58px;
+    @include font-family();
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: $black_blue;
+  }
+
+  &_box-widget {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_x-icon {
+    margin-left: 11px;
+    margin-right: 64px;
+  }
+
+  &_number-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  &_number-day {
+    margin: 0;
+    @include font-family();
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &_diet-text {
+    padding: 0;
+    margin: 0;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: $black_blue;
+  }
+
+  &_amount {
+    margin-top: 48px;
+    margin-bottom: 10px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+}
+
+// &_diagram {
+//   position: relative;
+//   width: 976px;
+//   height: 27px;
+//   background: #404950;
+//   border-radius: 2px;
+// }
+
+// &_diagram-line {
+//   position: absolute;
+//   top: 13px;
+//   left: 30px;
+//   width: 915px;
+//   height: 2px;
+//   background: #72828e;
+// }
+
+// &_number {
+//   margin-left: 9px;
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 26px;
+//   line-height: 140%;
+//   text-transform: uppercase;
+//   color: $black_blue;
+//   cursor: pointer;
+// }
+
+// &_number::before {
+//   content: "";
+//   position: absolute;
+//   height: 10px;
+//   width: 10px;
+//   border-radius: 50%;
+//   top: -26px;
+//   margin-left: 14px;
+//   background: #ffee2e;
+// }
+
+//   &_number:hover::before {
+//     cursor: pointer;
+//   }
+
+//   &_number::after {
+//     content: "";
+//     position: absolute;
+//     width: 40px;
+//     height: 40px;
+//     bottom: 39px;
+//     border-radius: 50%;
+//     border: 10px double #fe9013;
+//     opacity: 0;
+//   }
+
+//   &_number:hover::after {
+//     opacity: 1;
+//   }
+
+//   &_number.active {
+//     color: #fe9013;
+//   }
+
+//   &_number-link {
+//     position: absolute;
+//     top: 35px;
+//     width: 970px;
+//     margin: 0;
+//     padding-left: 0;
+//     display: flex;
+//     justify-content: space-between;
+//   }
+// }
+
+.panda_bg {
+  background: #283035;
+  height: 390px;
+  background-image: url("../assets/images/panda_bg.jpg");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.another_amount {
+  margin-top: 98px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-number {
+  width: 268px;
+  padding: 16px 9px;
+  margin-bottom: 25px;
+  border: 1px solid #929699;
+  border-radius: 2px;
+}
+
+.input-number::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+}
+
+.input-number:focus {
+  outline: 1px solid $green;
+}
+
+.radio-monthly {
+  margin-right: 50px;
+}
+
+.donation_button {
+  margin-top: 31px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.donation_share-text {
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 1599px) {
+  .donation {
+    &_container {
+      padding-bottom: 30px;
+    }
+
+    &_title {
+      max-width: 778px;
+      margin-bottom: 30px;
+    }
+
+    &_text {
+      margin-bottom: 25px;
+    }
+
+    &_information {
+      margin-bottom: 38px;
+    }
+
+    &_box {
+      padding: 22px;
+      padding-left: 45px;
+      padding-right: 38px;
+      padding-bottom: 48px;
+    }
+
+    &_title-card {
+      padding-left: 0;
+      margin-bottom: 9px;
+    }
+  }
+  .another_amount {
+    margin-top: 106px;
+  }
+}
+
+@media (max-width: 999px) {
+  .panda_bg {
+    height: 369px;
+  }
+
+  .donation {
+    &_container {
+      padding-top: 32px;
+      padding-bottom: 48px;
+    }
+
+    &_title {
+      font-size: 24px;
+      line-height: 120%;
+      margin-bottom: 18px;
+    }
+
+    &_text {
+      margin-bottom: 32px;
+    }
+
+    &_information {
+      margin-bottom: 28px;
+    }
+
+    &_box {
+      padding: 0;
+      padding-bottom: 30px;
+    }
+
+    &_title-card {
+      padding-top: 32px;
+      margin-bottom: 20px;
+    }
+
+    &_subtitle-card {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    &_number-box {
+      margin-top: 64px;
+    }
+
+    &_amount {
+      margin-top: 40px;
+      padding-left: 10px;
+    }
+  }
+  .another_amount {
+    margin-top: 100px;
+  }
+
+  .input-number {
+    width: 180px;
+    height: 42px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 639px) {
+  .panda_bg {
+    height: 222px;
+  }
+
+  .donation {
+    &_container {
+      padding-bottom: 20px;
+    }
+
+    &_information {
+      font-size: 24px;
+    }
+
+    &_box {
+      padding-bottom: 20px;
+    }
+
+    &_title-card {
+      padding-top: 15px;
+      margin-bottom: 12px;
+      font-size: 24px;
+    }
+
+    &_subtitle-card {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    &_box-widget {
+      align-items: center;
+    }
+
+    &_number-box {
+      margin-top: 32px;
+    }
+
+    &_number-day {
+      font-size: 40px;
+    }
+
+    &_diet-text {
+      font-size: 10px;
+      margin-top: 10px;
+    }
+
+    &_x-icon {
+      margin-right: 20px;
+      width: 8px;
+      height: 8px;
+    }
+
+    &_panda-widget {
+      width: 160px;
+      height: 139px;
+    }
+
+    &_amount {
+      margin-top: 5px;
+      padding-left: 0;
+    }
+
+    &_button {
+      margin-top: 24px;
+    }
+
+    &_share-text {
+      width: 301px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+
+  .another_amount {
+    margin-top: 48px;
+  }
+}

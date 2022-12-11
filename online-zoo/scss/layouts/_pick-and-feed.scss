@@ -1,0 +1,290 @@
+.pick-and-feed {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background: $orange_gradient;
+}
+
+.pick {
+  &_container {
+    padding-top: 41px;
+    padding-bottom: 50px;
+    background: $frosted_glass_white;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+  }
+  &_title {
+    margin-bottom: 30px;
+
+    @include font-family();
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+
+  &_subtitle {
+    margin-bottom: 40px;
+    padding-left: 99px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: $black_blue;
+  }
+
+  &_text-weight {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 99px;
+    @include font-family();
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: $black_blue;
+  }
+
+  &_text {
+    margin-top: 0;
+    margin-bottom: 58px;
+    padding-left: 99px;
+    margin-right: 188px;
+    @include font-family();
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: $black_blue;
+  }
+
+  &_link {
+    color: $black_blue;
+    border-bottom: 1px solid #fe9013;
+  }
+
+  &_button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+}
+
+.text-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  @include font-family();
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: $black_blue;
+  text-align: center;
+}
+
+.pick_card {
+  height: 244px;
+  width: 168px;
+}
+
+.pick_card-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pick_svg {
+  position: relative;
+  height: 168px;
+  width: 168px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.pick_svg::after {
+  content: "";
+  position: absolute;
+  border-radius: 5px;
+  inset: 0;
+  padding: 2px;
+  background: linear-gradient(113.96deg, #fa6f32 1.49%, #fe9013 101.44%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.pick_card-text {
+  margin: 0;
+  margin-top: 30px;
+  @include font-family();
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: $black_blue;
+}
+
+.pick_arrow {
+  transform: translateY(62px);
+  margin: 0 30px;
+}
+
+.pick_arrow-green {
+  display: none;
+}
+
+@media (max-width: 1599px) {
+  .pick {
+    &_container {
+      padding: 0;
+      padding-top: 30px;
+      padding-bottom: 55px;
+      width: 940px;
+    }
+
+    &_title {
+      margin-bottom: 20px;
+    }
+
+    &_subtitle {
+      margin-bottom: 20px;
+      padding-left: 49px;
+    }
+
+    &_text-weight {
+      margin-right: 90px;
+      padding-left: 49px;
+    }
+
+    &_text {
+      margin-bottom: 40px;
+      margin-right: 38px;
+      padding-left: 49px;
+    }
+  }
+
+  .pick-and-feed {
+    padding-bottom: 50px;
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 999px) {
+  .pick-and-feed {
+    padding: 20px 0;
+  }
+
+  .pick_arrow {
+    display: none;
+  }
+
+  .pick {
+    &_container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 10px 12px 60px 12px;
+    }
+
+    &_title {
+      font-size: 42px;
+    }
+
+    &_subtitle {
+      font-size: 21px;
+      padding: 0;
+      margin-right: 0;
+    }
+
+    &_text-weight {
+      padding: 0;
+      margin-right: 0;
+    }
+    &_text {
+      padding: 0;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    &_card-container {
+      position: relative;
+      gap: 16px;
+    }
+
+    &_arrow-green {
+      display: block;
+      position: absolute;
+      top: -14px;
+      left: 140px;
+      z-index: 10;
+    }
+
+    &_arrow-green-two {
+      left: 355px;
+    }
+
+    &_button {
+      margin-top: 40px;
+    }
+  }
+  .text-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 639px) {
+  .pick {
+    &_container {
+      width: 300px;
+      padding: 20px 0 40px 0;
+    }
+
+    &_title {
+      font-size: 24px;
+      margin-bottom: 13px;
+    }
+
+    &_subtitle {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    &_text-weight {
+      display: none;
+    }
+
+    &_text {
+      display: none;
+    }
+
+    &_card-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+    }
+
+    &_card-text {
+      margin-top: 10px;
+      line-height: 140%;
+    }
+
+    &_arrow-green {
+      transform: rotate(90deg);
+      left: 205px;
+      top: 190px;
+    }
+
+    &_arrow-green-two {
+      left: 205px;
+      top: 435px;
+    }
+
+    &_button {
+      margin-top: 15px;
+    }
+  }
+
+  .text-title {
+    font-size: 24px;
+    line-height: 120%;
+  }
+}

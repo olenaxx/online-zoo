@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+@media (max-width: 1599px) {
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (max-width: 999px) {
+  .container {
+    max-width: 600px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    max-width: 300px;
+  }
+}
